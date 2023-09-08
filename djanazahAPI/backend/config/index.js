@@ -2,7 +2,7 @@ exports.config = {
   /**
    * Your favorite port
    */
-  port: 1090,
+  port: 1122,
 
   /**
    * That long string from mlab
@@ -33,5 +33,5 @@ exports.config = {
   /**
    * Backend Url
    */
-  backendUrl: "http:kodextech.net:1090",
+  backendUrl: "http:kodextech.net:1122",
 };
