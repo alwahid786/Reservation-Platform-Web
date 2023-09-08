@@ -1,0 +1,3439 @@
+[{
+  "_id": {
+    "$oid": "5f2d427f7a660343a8da4bc9"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "9D2EE002-826A-4470-AFB1-821A205C72F9",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "currentArea": {
+    "country": null,
+    "province": null
+  },
+  "createdAt": {
+    "$date": "2020-08-07T12:01:03.108Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T02:19:21.537Z"
+  },
+  "__v": 1,
+  "fcmToken": "f4fVpnqp4Es6j8S1RlNADm:APA91bGmuPtmM5w7tp_bRJoFfhOlOrujueduhk2OtfmQP-DR_se3zN9dp8uZGbwqrowO3WF2xuLm_5AQS5svFsbklBiUOaL_R4DtmXY0mj_b3tXF59jetPvrVv1Y8d14Is7xOrxvtwpX"
+},{
+  "_id": {
+    "$oid": "5f2d539ca0fbf74455c7be22"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "3BEEE54B-AFA6-4CB3-AE12-8C6190F42940",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "currentArea": {
+    "country": null,
+    "province": null
+  },
+  "createdAt": {
+    "$date": "2020-08-07T13:14:04.148Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-07T13:14:04.747Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f2d53b6a0fbf74455c7be23"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "2165D25F-0B30-437B-B21B-405E1F4AFCA6",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "currentArea": {
+    "country": null,
+    "province": null
+  },
+  "createdAt": {
+    "$date": "2020-08-07T13:14:30.892Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-07T19:46:28.394Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f2dafada0fbf74455c7be25"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "1F05D002-29BB-4A1D-BAE0-EDA52261BD7E",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "currentArea": {
+    "country": null,
+    "province": null
+  },
+  "createdAt": {
+    "$date": "2020-08-07T19:46:53.650Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-07T19:46:54.264Z"
+  },
+  "__v": 0,
+  "fcmToken": "cTuOPJZ7QEQroRZH-HGG34:APA91bE1l-WMFu_GCyGTM7HQGlsESg6LaYdxkB8tDF003FggH5Fdt4q-I-V423fI8ELFzsLVbtSHbSIXmPB0DfM2vIcgpbZ4Ekj6jW2E8S47tmSV0PrYpIU31sE-JAdqUCBHRlZz8e2M"
+},{
+  "_id": {
+    "$oid": "5f2f8764222c874504038ab9"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "9d06e1aa-d07c-406a-8873-97b8c793b6c1",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-09T05:19:32.256Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-09T05:30:59.784Z"
+  },
+  "__v": 0,
+  "fcmToken": "ebZkNzR5Qqy82840_W9oje:APA91bFrm7ojWX6JCQ4LOgZ7sBmqNDzYfpECC_j8KBT4z_Vr240jpm9ZkgvuQ3DUvOkuRl5QL9gBjUv9Qp7-JU4CTNS4ArU_xFW41-Y4-BbJS8V0QKHYVdQBDWjYfPrK4Ov0RjKhvcxK"
+},{
+  "_id": {
+    "$oid": "5f2f979bcfcfa426e004572b"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "f21f65ce-41d7-453d-8f71-6559f9b10929",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-09T06:28:43.280Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-09T09:27:09.805Z"
+  },
+  "__v": 10,
+  "fcmToken": "dW17qZcwTD2CeFKN9zDVED:APA91bEy_hhpDi5DCcgfMu08yABdD2IRs_WMwnWNehuSA_-n2nZIQ9x1gnJFPv42-6AiNwaWgzYeplXT0mO44z0KxxdmU4vNOvudVgE8tGCqXzzzwgAjxU6-wsFo9q_RcccAm9NpJMCs"
+},{
+  "_id": {
+    "$oid": "5f2fb9f9cfcfa426e0045730"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "71e9061d-1f82-4a9e-9bc7-77ce6fcb57e2",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-09T08:55:21.551Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-09T09:06:53.939Z"
+  },
+  "__v": 1,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f30b0c412e0442c1cf870d4"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "93c4637c-a022-4f5c-b275-d54231223ae9",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-10T02:28:20.712Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T09:31:16.307Z"
+  },
+  "__v": 0,
+  "fcmToken": "c5nKNb9rT2iKE9zXJsoZOD:APA91bGnmPwYQDPz3L9CG8M2445Cd5t3YQoBlChmuiKxZ6OLASn4oBerSw-yZHPYpCk5AvwDfxEusbq6wc-lHGR059kN3WPoXIfWwa6Qm2EEfFoNH6l7fdNoGDszuG1rUeM1IM0f20Ij"
+},{
+  "_id": {
+    "$oid": "5f30b3bca0fbf74455c7be37"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "375e71f0eb060ebb",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "currentArea": {
+    "country": null,
+    "province": null
+  },
+  "createdAt": {
+    "$date": "2020-08-10T02:41:00.052Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-10T05:11:54.758Z"
+  },
+  "__v": 0,
+  "fcmToken": "cTfdG-BaQSu-r25ypbkS3h:APA91bGMAb3NiWu-JpncwL6tCH-1I1nRTl7ErAxWPrRSGtVanzzUYDORp9g61Owor-ncupCm7bJyQt8i7IRjJK7YHuWrJNrEve3qs2zTMJGzfw7IljDcyokO1QYPFClg2cui1dC6s8Nv"
+},{
+  "_id": {
+    "$oid": "5f30ba4e12e0442c1cf870e0"
+  },
+  "favorites": [
+    {
+      "$oid": "5f2776a003baa71e4957a38a"
+    },
+    {
+      "$oid": "5f2776a003baa71e4957a38c"
+    },
+    {
+      "$oid": "5f2776df03baa71e4957a38e"
+    },
+    {
+      "$oid": "5f2776ef03baa71e4957a390"
+    },
+    {
+      "$oid": "5f27775a03baa71e4957a392"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a394"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a395"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a396"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a397"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a398"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a399"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a39a"
+    },
+    {
+      "$oid": "5f2777ab03baa71e4957a39c"
+    }
+  ],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "e1b3001b-31dc-4e97-a763-0f00dc61cc0a",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-10T03:09:02.335Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T05:35:43.142Z"
+  },
+  "__v": 60,
+  "fcmToken": "cTfdG-BaQSu-r25ypbkS3h:APA91bHQo5-6YUbkfGUM-irfvly9J8uQT0ZfA6iDj5-VvPaZRk1hR4lG-s6xoRcxPToxv8TTrvqx_tA1rME2XN3_IqYdDnHXzEDAt9UhtVGf457jRH7hLnf5IAWmC3mJTZCSKQUIBMsg"
+},{
+  "_id": {
+    "$oid": "5f30ed1fba8fc82b89029a4d"
+  },
+  "favorites": [
+    {
+      "$oid": "5ef3305febe6a51ea0999876"
+    },
+    {
+      "$oid": "5ef3305febe6a51ea0999877"
+    },
+    {
+      "$oid": "5f2776a003baa71e4957a38a"
+    },
+    {
+      "$oid": "5f2776a003baa71e4957a38b"
+    },
+    {
+      "$oid": "5f2776a003baa71e4957a38c"
+    },
+    {
+      "$oid": "5f2776df03baa71e4957a38e"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a394"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a395"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a397"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a398"
+    },
+    {
+      "$oid": "5f27779603baa71e4957a399"
+    },
+    {
+      "$oid": "5f2778c903baa71e4957a39e"
+    },
+    {
+      "$oid": "5f2778c903baa71e4957a39f"
+    },
+    {
+      "$oid": "5f2778c903baa71e4957a3a0"
+    },
+    {
+      "$oid": "5f2778c903baa71e4957a3a3"
+    },
+    {
+      "$oid": "5f2778c903baa71e4957a3a4"
+    },
+    {
+      "$oid": "5f2778c903baa71e4957a3a5"
+    },
+    {
+      "$oid": "5f2778c903baa71e4957a3a6"
+    }
+  ],
+  "listLocation": [],
+  "udid": "078beb1c-21cd-48ff-92be-9d34a4691e99",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-10T06:45:51.262Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T08:44:24.159Z"
+  },
+  "__v": 30,
+  "fcmToken": "fIKNW6aQ20dxsay0ZTsGp9:APA91bHCCPjuNAkm2DgDvbptKwNBXDgIK-K0jFwOM6pkA9Gy0uqxWvwtkLpXauc6bakHtOsU8q0OZi4YTar00w01MSi27A30GzhozjJPvE49Ca1DRaSSdZInCPtVjfav5MK7tQBZhSfm"
+},{
+  "_id": {
+    "$oid": "5f30ed1fba8fc82b89029a4e"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "area",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-10T06:45:51.363Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-10T06:45:51.363Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3101ceba8fc82b89029a70"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "0bd2b298-186b-4eb2-beec-f891351eccb3",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-10T08:14:06.948Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T08:35:09.137Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f325865ba8fc82b89029a98"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "8e8ffa85-3377-4b1c-b691-5a10d4d96eb6",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T08:35:49.492Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T08:35:54.530Z"
+  },
+  "__v": 0,
+  "fcmToken": "fYFAN7RGFUGMhshQX_UFbq:APA91bGtKEsM8LdbBpy7PUXUn1knm9KUkuX2wSq6gC2_ajGPLcngbzR4vehayw-ewwkGKNAXIUIr7aN1opsjd8CBnw0_ZwB5wWtAiwxQg2fvtwyxn0h0AjrenAnHI8SZcdfHUcdWDBj4"
+},{
+  "_id": {
+    "$oid": "5f3258d1ba8fc82b89029a99"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "e2d62587-3bc7-43bb-8efa-a9c608ca27e5",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T08:37:37.656Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T08:37:50.363Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f326589ba8fc82b89029a9d"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "d7610a65-5d76-4f07-b676-363f93b62131",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T09:31:53.149Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T09:32:43.103Z"
+  },
+  "__v": 0,
+  "fcmToken": "e9n4_6fvSa64POTpoXTyoc:APA91bGOnHUNKg1bEAwYEOf1GmbgeIgdSl5RcKuJVXx0AbAYwXgkZX_pPoD5NRr2B594S4a11rtcKhDMIq2hGBjA5dis0Ez_uwOyYIdSZWQg7UMGTeLGlj9tzrCclmEuTbR7s80EMUGg"
+},{
+  "_id": {
+    "$oid": "5f327440ba8fc82b89029aa5"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "91131aa3-c81d-43b4-9582-0eb24915d2bc",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T10:34:40.491Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T20:21:54.420Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f327dd8ba8fc82b89029aa6"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "1e23fc86-0361-42d7-ae76-074ab4b466c1",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T11:15:36.111Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T11:27:39.972Z"
+  },
+  "__v": 0,
+  "fcmToken": "c93vNEqpT0ycTMc0S2iU0E:APA91bEmRNkfoc26pwa1Yq62t-EnYBEC6zY1sk_c-dV3j_IKv98u9s-ARedOcTpccptQVWMGa7CosnnCXcFvqh84WzOCLg97GrzvbbEwYKFuq4J9v8rpAmaxvwyjOJ_B-bLQv8dqe6el"
+},{
+  "_id": {
+    "$oid": "5f32fe61ba8fc82b89029aae"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "b14e6763-86cd-4416-966b-17e3011efd2f",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T20:24:01.447Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T20:24:01.988Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33105cba8fc82b89029ab0"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "9c464f81e76e496f",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T21:40:44.356Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T21:41:56.210Z"
+  },
+  "__v": 0,
+  "fcmToken": "djcGToaYT_qDBSMTEk6aBS:APA91bFt93x-OPwquIXvvDOBTU6kNhjpiqflu9fdxVtNBMcdJuQlCEK7N8rvMll-pUE1G8UiZDkKZISbRGML69iDjI3uXR_EdtyFMbBTSs4vA5265fdb-7StwhmInnCZFqffcKGaiJFq"
+},{
+  "_id": {
+    "$oid": "5f33878cba8fc82b89029ab4"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "59430c5e-590a-49a6-a742-5d0c99861dad",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T06:09:16.807Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-17T10:31:04.538Z"
+  },
+  "__v": 1,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33b5921afac57f60482f49"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "aaa866e0-b94c-427c-9144-04194e1c6a8b",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T09:25:38.487Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T09:28:15.807Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33b6811afac57f60482f4a"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "8750fb6a-dd8e-41cf-9c5d-10a3ad190b96",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T09:29:37.327Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T09:37:23.061Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33b8831afac57f60482f52"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "731491f1-ee7c-45db-8d91-5477fcc4dc68",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T09:38:11.253Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T09:39:59.975Z"
+  },
+  "__v": 1,
+  "fcmToken": "eMlmMu8YI0v5nqEuAbSxnj:APA91bFBeg18OkY0ZVtZCGo1A0kU8OSurK5BqJ-ldo42H2Qhu0SaaFsvYRMWh2DBUekOK5rOun5a0nj0qKtkHbOIRY_9gev0zTkjxu6JwXI2BicMrZuRwmEqc_Cad-Kl_7S88aOjrUR7"
+},{
+  "_id": {
+    "$oid": "5f33b9391afac57f60482f53"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "f2178917-68a0-4723-ab14-4e14d1ca7e32",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T09:41:13.414Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:02:04.109Z"
+  },
+  "__v": 0,
+  "fcmToken": "cx3RediqLUHgvnKOtLepQ6:APA91bFZ4SK7KZhGVi3LeNwW6dGUS8ZOO6I1OK_j72wAmGYQICleLYmsfoyvWEmAY7xLPq0p9IfDlcmmvDHnnBx_GS2V5uRi3AeobFidEdmb14sMe1elBmkwxpPI49_nIRBGsLyizVoy"
+},{
+  "_id": {
+    "$oid": "5f33bec51afac57f60482f58"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "2a3ac35d-7fca-4887-8200-356c7607e59f",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:04:53.122Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:04:56.047Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33bf3a1afac57f60482f59"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "bf6e199f-7d9d-4fad-ab83-cf3234eb0914",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:06:50.512Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:07:03.960Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33bff61afac57f60482f5a"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "7233cb97-f2ef-4a13-ac57-3c1d0150ef2f",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:09:58.382Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:11:14.301Z"
+  },
+  "__v": 3,
+  "fcmToken": "cQBh0-SgIEkGniX-8KNMy6:APA91bEVURsLLxrzQAJLaPxHBYlmqtugsaNrqOit8yEts8jfclgaz05VjJLOoIgGuDu53PhATIJuFm86tzgxD8w8z9lu0OXIug0XWCRSje1Ql5EYn7SulD4ceAwngCyFVlrKZ6RiAT2J"
+},{
+  "_id": {
+    "$oid": "5f33c1301afac57f60482f62"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "29808d31-f5cb-4c3e-9114-dd0192ff0690",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:15:12.852Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:15:44.671Z"
+  },
+  "__v": 0,
+  "fcmToken": "dU55v1XjXEaak1W-mbVVpT:APA91bEJfiPyFHJdhmQCRSpIhnX61cCGDCjN5K01G1_ZHFaTqHJeLclqOfdlJnTI6JCHi1HxZaSSO8bZ1n4KUlglxpRjU7i_xu502k0ep3hzC_7fy1NdTDIPrJm0J5xo2HYP3KeOpg8Z"
+},{
+  "_id": {
+    "$oid": "5f33c2341afac57f60482f63"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "b2f1839a-2958-445d-950a-8eda352e1d72",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:19:32.855Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:27:22.040Z"
+  },
+  "__v": 0,
+  "fcmToken": "fF-B75hw5E2MiJhKIEkJiZ:APA91bF3koNpt9Gal1ENrCxOKnUjmMTQSolS9d-gP2HMgweHUl4Df-U5tElj5AuRzQ7NJlDyAk9ltsdH8ial_HbrUqvMdIx9N6aQb6ym30o2K8ATBNQDk7Kgif9wC6YRC8hAyJ57AIvz"
+},{
+  "_id": {
+    "$oid": "5f33c4451afac57f60482f64"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "3dd2a386-3d8c-42e4-844b-8d7e7a79950a",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:28:21.590Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:28:39.411Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33c4e71afac57f60482f65"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "6b282280-bc37-455f-9eb3-11f857644d40",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:31:03.999Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:31:18.324Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33c7e51afac57f60482f66"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "ab7fed53-64e9-4f86-b55d-e8853185c636",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:43:49.347Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:46:04.119Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33ca2e1afac57f60482f67"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "77cf220a-d3c5-4383-b0c2-419ff2836e7b",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:53:34.021Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:53:53.308Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33cad91afac57f60482f68"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "3619b439-3c75-4637-b689-28d4e2e0a493",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:56:25.666Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-13T08:35:18.560Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33cbf11afac57f60482f69"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "33132b0d-9b62-445f-a46d-fb32550b40af",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T11:01:05.623Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T11:09:59.681Z"
+  },
+  "__v": 0,
+  "fcmToken": "elGBwn_CfkQtp41TcRtsiB:APA91bGu1sFEIOYLHNu2X39lzGdl6btnoNfr5guOv5I77k3fUIY1d61jGFmSnw-zCWLq_XSfpFVA7ZSvRN6D8BnP_XOyL421CuuFp1O91UPYBnC3djw2wvTn09-wA0cL4R-tpqCT6XLe"
+},{
+  "_id": {
+    "$oid": "5f33cf871afac57f60482f6a"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "079f96b5-0a47-4375-a71d-226059db4ebd",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T11:16:23.340Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T11:16:23.427Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33d3c21afac57f60482f6b"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "0d250c21-a0fb-40c3-886b-4757a08130ce",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T11:34:26.499Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T11:34:52.028Z"
+  },
+  "__v": 0,
+  "fcmToken": "eqTrFMq-QqCClTH4HK-MSk:APA91bFs9JYhelxNUNdTHLuXaAl8mfW0mIGyn2HTjX1tFT4tc_yoZZW8CjrxBpb3dCr7058seOcBX4M6DUjJCWvmgDlsrLgu0Mb56n0pKahmtjqhJO2o1kz5mPfF5nW50wiK80OlHGKM"
+},{
+  "_id": {
+    "$oid": "5f33d4181afac57f60482f6c"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "9050382a-1b07-43fa-956c-4899f56144c9",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T11:35:52.276Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T11:38:03.190Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f33d8341afac57f60482f6d"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "dbe1a061-dcac-40a3-8391-b2ae63cdcad8",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T11:53:24.596Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T04:22:25.274Z"
+  },
+  "__v": 0,
+  "fcmToken": "cIM_hzw0TSSnPy7nEpaF9B:APA91bGrHTA7OYvg-NSdkP3b4q9DZrZxqk2Ze-OoTFS5cnOLt3tt80oYj0U3Q-7cIy-fXTxBEFSbM03y7EMugZVSXjA9xiuDEhZAxL73lYZ8Qhn3vXe13lz5QQDxLFCyRyPiNrrlZ9Ed"
+},{
+  "_id": {
+    "$oid": "5f34e6a01afac57f60482f75"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "6c978ef4-7517-4683-9f7f-09256fc3dc2b",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T07:07:12.418Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-13T07:18:29.139Z"
+  },
+  "__v": 2,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f34e9a71afac57f60482f7b"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "2411e48d-3f0a-4322-b0b4-5a14057cec58",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T07:20:07.256Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-13T07:28:44.091Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f34f0e51afac57f60482f87"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "8c0d4735-b10b-4a36-a0cd-362bffc37487",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T07:51:01.398Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-13T07:51:54.387Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f34f1401afac57f60482f88"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "b21e08c3-eab5-44e4-bf25-ade84728576a",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T07:52:32.790Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-17T10:31:04.547Z"
+  },
+  "__v": 1,
+  "fcmToken": "fHYgfuIfOkLLq4EwLNXUaO:APA91bHis5RINPwBaM4VYcK0DSsqJWtFpx2JF--_LqfQYnq7WsaWICvW1BRaeogywb_x9xPG4a-QPQYGMtIralAkpdWEk8mipp17-PkUUemkYjdbCOR-GW_vvAnp4ZhjywuORYZH1zFn"
+},{
+  "_id": {
+    "$oid": "5f34f5061afac57f60482f8d"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "2d5e4687-875d-4388-935a-4fa3bb77635e",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T08:08:38.911Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T08:18:20.274Z"
+  },
+  "__v": 6,
+  "fcmToken": "e-rR4T2vrU3xvyMLOIddvp:APA91bE0lgEAMWf5qIAxUwtNdp3jl9k4Llm8hQMbgxvezyTkXNV69UIgNzYJRGzIbeGpKyx8RFpR9pUUUuvsl9VsIol3APArM4ncrgGR90b-X9HhwQQWsVtdJKjPU3JbI1xVOQO69l3c"
+},{
+  "_id": {
+    "$oid": "5f34fb5b1afac57f60482fa1"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    }
+  ],
+  "udid": "53ca006e-f835-4b20-8c69-e1f90df14e65",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T08:35:39.866Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-15T19:04:28.231Z"
+  },
+  "__v": 2,
+  "fcmToken": "dVmZZKIBckgulDc3cC4f9e:APA91bHFqkYWZLhn1EyaYH6VQL0hIxRS_t0NkZyqr_FwdGGFDdWV29FkKbXx2oR1iA7wfOWQpCEFgRKP_i4FzB26ImMKTxkDQLzd31nkef83FxILCvenTK95FTImEmql_ueZVoevd5fM"
+},{
+  "_id": {
+    "$oid": "5f3b3c65d4a9646c41ab25f8"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "c0dae9ac-c2e9-4ee1-854e-a67427e83596",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T02:26:45.745Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T02:26:56.485Z"
+  },
+  "__v": 1,
+  "fcmToken": "f4-25dkJMUz2iWTKTe_6M2:APA91bHFMDM7VhhUS-Rd0IoK0b00VXVJCjebjF1D2x8Is7BVGzDuEAwjLfQRBGuWbg1MyB5xlZVT3T7MKGex2bwz3BVQWmTCRCAKLqsrOnmhgmI0Kn3ZIntIDk2PvcFA94uidC6GdGxi"
+},{
+  "_id": {
+    "$oid": "5f3b3c9ed4a9646c41ab25f9"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "6dd7ae0f-f42a-4e80-b000-f483273b798e",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T02:27:42.820Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T02:27:51.080Z"
+  },
+  "__v": 1,
+  "fcmToken": "eO3aLTbdIEx7pr4rzuhn-w:APA91bGoTaJ8xhD3xr-8V7_dF7UJnuVwSIfk9Y45MJXuJTBSaERXTr2MAFl-2yz4Ow5ZxAk5btbGNLMShUxLG9CC-eLSy7wjk-XhnrSG8APUdHaGYkwvCsA31VmuJ0LHWnsLUfHeIbB_"
+},{
+  "_id": {
+    "$oid": "5f3ba0a8d954e076cf513043"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "fd9b34a4-1206-4e1a-98c8-94b16c7c7b0e",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T09:34:32.301Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T09:34:46.607Z"
+  },
+  "__v": 2,
+  "fcmToken": "drB91lMik0yhlQCmlZSCwI:APA91bHHc3QreRD5rJzg3I4kXdMXaPfU4IYKFyi-X6n8Nk7pmuqNXuNxXKLtck_lO6czudJF0EvnsAdkgW1U7pJI-98hfxBL17rb6jXu23Ye9JOT3RzLzxb__oEz2YVHOm6s-uI6YXRB"
+},{
+  "_id": {
+    "$oid": "5f3ba621d954e076cf513044"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "27c55fd8-1c94-4db7-b876-54cf9c93c44c",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T09:57:53.960Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T09:58:04.611Z"
+  },
+  "__v": 2,
+  "fcmToken": "fDeLM_S9e0p8i8BKIv9gj7:APA91bGapHt_5CBqcMLG0MrfXCQ6HDG5Ruip0U4e1zGWiTx9SLvFIeaqkHqpVv0i9RqKmEU2o419t-7drlGWpybh9lswGnXTduvSpGlZXG2hdzI8YKjNin3070JkAB3K0oPw0HvkIw_C"
+},{
+  "_id": {
+    "$oid": "5f3baeacd954e076cf513045"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "6bf5defe-03eb-4d78-a529-d47f4294de85",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T10:34:20.596Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T11:29:28.139Z"
+  },
+  "__v": 1,
+  "fcmToken": "cfR5EdtYh0FfgJdJL-PBeE:APA91bHr01Hj9siIi29TrIL47LQD3RsR-KKZeLKr2uOJm-bMwrWb0bvdZMwmtTrz2mmeFH9w1ow8v6wGOiVu-uabEdvt0HT2jU6UpqBsLv8J2xIGR73moff_R7OsVEHS92wGJLgyuayj"
+},{
+  "_id": {
+    "$oid": "5f3bbcfed954e076cf513046"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "ac96b532-9eca-422f-8515-673c40c46633",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T11:35:26.448Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T11:35:31.383Z"
+  },
+  "__v": 1,
+  "fcmToken": "cA-mdXoX1UeouclzsMTItv:APA91bFWA2SbzPRFDUPRriPtLk9NL2u0d1gMCj00wvbxBlVuNSQWFrLXhnJfcrameJUHEwqSdti7jk-YkNGE_T_-dPg0NISl-DSxDPdv9x61hST5H-G8s1l6W4QOLemizf3xo2TmVoM-"
+},{
+  "_id": {
+    "$oid": "5f3bbda9d954e076cf513047"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "415681f5-ab2d-4460-b876-2121854751a9",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T11:38:17.337Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T11:39:48.485Z"
+  },
+  "__v": 1,
+  "fcmToken": "dTnQYgYLIkSOkOxmu3wcAg:APA91bGN9pe70I2-vdM-IksLkMKNjitbCqyNiNFG0JsDPVXzWls7H2IrdemR0DLHWOWST7BnRO0jx08sjiqX9JjGq5Axf10c3WBkq-tuvdpKvh8wg9uhDgoD9sssBRMRsF-dTUjZee6W"
+},{
+  "_id": {
+    "$oid": "5f3bbe27d954e076cf513048"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "0cf418b8-8ed5-4ef7-a442-e62600ef2035",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T11:40:23.031Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T11:40:29.073Z"
+  },
+  "__v": 1,
+  "fcmToken": "cOfe8IvOtUzvipHTeiiihs:APA91bHEok9s6Y0H3Uz4uPl3DDHLKL-ou6nJkuZCgM3kvZiACBlkkKXmze338naHkSBl0UweameAQr5trjd-3VeoR7TcnnfgYypOUGlY0eKhpB5Fk0YDjytFZxlJ-L4f5oGhkk_udGZw"
+},{
+  "_id": {
+    "$oid": "5f3bcdb3d954e076cf513050"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "5f8f94da-4d3d-40dd-8840-b198812c6b63",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T12:46:43.308Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T12:46:49.900Z"
+  },
+  "__v": 1,
+  "fcmToken": "72A65493B24E474F54426547775FCE13E079A68881F2D10F2259ED135BFB7C57"
+},{
+  "_id": {
+    "$oid": "5f3bd88866a88b7a76407a13"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "b00f3a3f-e8d2-45ae-8e79-d41f6c6e4734",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T13:32:56.298Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T07:28:32.865Z"
+  },
+  "__v": 1,
+  "fcmToken": "dnND1LmsZEUgtc7Yq0foDx:APA91bHDBzQYqDGPBhXwp20SlnkrML_kpoVKEtuSYzdYk6iQfJKjpC8KYf5YNWQG5VkbvsuTBAnPfGkGV37Fr4ztBHDEZZ_I63wSd-hmPVo5eZMGt7wbfJxibdqlPptliKJKB96w-wQd"
+},{
+  "_id": {
+    "$oid": "5f3cd97f7d0ac61a9a29766b"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "f82f0da2-7802-40bb-a170-21b1181b2fc9",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T07:49:19.314Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T07:52:36.155Z"
+  },
+  "__v": 1,
+  "fcmToken": "cTfdG-BaQSu-r25ypbkS3h:APA91bGPjy-uBQfhv3T5NpFykoZZ2z_7K_tlHrAUsjqf9Y8rTgJkBJ2i2RB29azE-8pYLOz7dIMUvWlwMMlQb3w2ZrNiSYup-2-jCWug9LhVpAZaFh0RUiyBmPncGl4nzqApMfnTBEct"
+},{
+  "_id": {
+    "$oid": "5f3ce0407d0ac61a9a29766f"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "53f0f9c0-1cf5-4a8e-93ec-a534ab01d945",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T08:18:08.245Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T09:56:32.009Z"
+  },
+  "__v": 1,
+  "fcmToken": "cTfdG-BaQSu-r25ypbkS3h:APA91bHUpEGCVQaEPWrYP_vl3YrlNuDIc0lD_q9Dc4sQ9ciYHKg9Ie-Nnp9BRnLN5jbxu9bbwqyCPS3y7H1F5F4yNNP105nDuD8qoK_pN3yIc-0VqF0JoAMGDx-lDJyQEFzQormyWT_T"
+},{
+  "_id": {
+    "$oid": "5f3ce6bf7d0ac61a9a297670"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "34d20308-aed1-4726-af09-71ac01aee9bf",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T08:45:51.314Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T08:45:51.401Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f3cf12a7d0ac61a9a297671"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "6a7c2659-3708-4210-9386-96ade174cc75",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T09:30:18.628Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T09:30:28.185Z"
+  },
+  "__v": 1,
+  "fcmToken": "chmdOekoX0b_oO4KRO3HSx:APA91bE--b3RPndELnBjZsfpE9nvHmY4FgqIZ10VVGkPLIWXyvbjm5cZGDVpOu3jJNMrsk6OnoCnabgzE1McEcbgmRRiIQihxX83m9VnGqmU2TPfjyTzMDSrdID5WJht54ttRFF-WdX_"
+},{
+  "_id": {
+    "$oid": "5f3cf1ac7d0ac61a9a297682"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "9e3ac527-b665-48a7-a076-14aa61bfa9e4",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T09:32:28.111Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T09:32:28.187Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f3cf1c77d0ac61a9a297683"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "5d090f84-179e-40d0-9588-804bb7dc0a1a",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T09:32:55.194Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T09:39:03.577Z"
+  },
+  "__v": 2,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f3cf3d47d0ac61a9a29768b"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "1e91781f-1e14-4eb8-b911-eadda1fbe0e0",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T09:41:40.189Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T09:41:40.260Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f3cf3ec7d0ac61a9a29768c"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "9e5e3c33-c07d-44f5-be84-54ff25753d0f",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T09:42:04.176Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T10:04:16.504Z"
+  },
+  "__v": 1,
+  "fcmToken": "fnjD6LCoC0Xxmrf9osarML:APA91bFiy3sEHcetdx50N8rwD6aFZu6izSf4IWWL0Gjzbh_G9R_Pc1yU1oXEClG7Tw6ms9naw3UFZkRZDRShjCPRjWtCZbHhOABC37ilX9fX0ixph8Qwpl1EeP-umNhQO-IrIEi_yijZ"
+},{
+  "_id": {
+    "$oid": "5f3cf9e97d0ac61a9a297698"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "97e2e46b-3f6c-421b-945a-ba89089ac2e2",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T10:07:37.221Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T10:08:02.086Z"
+  },
+  "__v": 1,
+  "fcmToken": "fUIQpBXO2ELetoXM7bZR9P:APA91bG05OE0khRr8hJ72G-h1qSKcFy_jam9_E3Kr1fgRJGHhhYCCNaQA6d9Z8lybJR3LtIwj9OfoaVRrFln9h8lXziynzPMjtK8RlTvjp437CCHSFwn6UBd0NeN6gvhqilgkU5gAHPk"
+},{
+  "_id": {
+    "$oid": "5f3cfad87d0ac61a9a297699"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "f682e626-4685-4745-9065-615821c5fac2",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T10:11:36.815Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T10:12:25.791Z"
+  },
+  "__v": 1,
+  "fcmToken": "fn305fGnK0g8gXKnrJzLIt:APA91bHYgGc52VWG_sK4efhu63AyVG1jex3wyZ2PRmihEvuGPp0JRVP893bIHVqxG6W9LMLpcg6xNmNUY6YZKDmRbzfRW7nX6VTqa-sA1d6cCDFv5swWfy_XyeWwDVQ0NQvZLsw4eOow"
+},{
+  "_id": {
+    "$oid": "5f3d03ab7d0ac61a9a29769a"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "a0b16c06-53fe-4428-a1d5-501c6749149b",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T10:49:15.604Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-20T04:38:38.445Z"
+  },
+  "__v": 4,
+  "fcmToken": "e2PtQ6BNJUYAo8c1nV0ZjZ:APA91bFjbWtOzVJoywjjL_Pee7sHR2daKz4W6Sspj7vKAdAz91qiqudBrnnFDKB65W0kEvgemPFtIJSidZ3Sy4giTz32lXlYS-ZrwI1b6FHroleGgCfYGB2EWSFnCG7Hq5qgc3zLbRSr"
+},{
+  "_id": {
+    "$oid": "5f3df15a50801e1638bcc3aa"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f2002e9cf61fa31a0257fb6"
+    },
+    {
+      "$oid": "5f2026402424f7355303807b"
+    },
+    {
+      "$oid": "5f2026402424f7355303807c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b59"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5a"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5c"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5d"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5e"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5f"
+    }
+  ],
+  "udid": "b5e9bc01-2e88-4a25-abd4-1330897b0c26",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T03:43:22.835Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-08T09:03:15.491Z"
+  },
+  "__v": 1,
+  "fcmToken": "fhI1TP_fQ_a9vvLiS70Mwn:APA91bESK9yryUCoiDmVYlnZ-aWvPLfNScCYfriUNhUcpSHNyWxEs2mVeuIMcImDkDsgcBwunsDnfJ6NfLfZIkrVWPsxSnIMCvj9uN6myz1wKB3felGIfDeB9qZ2PrAJaJ0_Gv_cIrya"
+},{
+  "_id": {
+    "$oid": "5f3dff2e7d0ac61a9a2976b0"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "6ae89bad-008f-4f68-a5b4-a410cc5f8fc3",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T04:42:22.605Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-08T06:27:04.823Z"
+  },
+  "__v": 1,
+  "fcmToken": "eB6c9CiALksCtbVzxtQuop:APA91bFD66rF5o6F9d6EUS-Ks24mpbgNJtU9f5ExUEJyo4UIfEZwNbYQdWUz_PSq76OewQz3wmni9Ik1gzR16z1Grln1oIOZNHRD80GcPvEDYCEjy6JoguTYPcJsqvP716lbcTzNm5IW"
+},{
+  "_id": {
+    "$oid": "5f3e33f37d0ac61a9a2976b1"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "ffe44d61-ab8c-4d82-a39e-eb6ba6d6628d",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T08:27:31.104Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-20T08:41:04.503Z"
+  },
+  "__v": 0,
+  "fcmToken": "fP_MMx9OukGRrsBXUZ6yU8:APA91bFVxzXx46gHJ4UHYKQF85KZX0YrnNLcRQmPo5knjJya2wSC008qm4qRrIbtQAGrnVjEYI1-CQGNsBo0P-JTtgA6wpi5Z6asKPtz9ZJo85Jlm6vofcVvYUfNZxRB_EeUqfL-3Ewg"
+},{
+  "_id": {
+    "$oid": "5f3e46a07d0ac61a9a2976b6"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "73a7fde0-61fe-4797-9f43-7d238c5bdae4",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T09:47:12.576Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-20T09:48:27.453Z"
+  },
+  "__v": 2,
+  "fcmToken": "dTNozm9RVUA9u6GIHuWyhJ:APA91bFr5gN5jtlWtkgeSewEtc_BGmbHA4hYOVHLLfYoSGwzfS3v-2q8gabqAdWB6PvTak3BIi5Xfcney6rMYAII2ZNIOxqNa2-41R_8-Z1CzY-JV-k0WVT109jyayZcpnH-TPQ7na3M"
+},{
+  "_id": {
+    "$oid": "5f3e47c77d0ac61a9a2976b7"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "4637ea0e-0130-4517-8101-15bb61258d5f",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T09:52:07.865Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-20T09:52:08.264Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f3f031f7d0ac61a9a2976c2"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "302131bf-2df1-4a7d-8c97-f64704f049d2",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T23:11:27.197Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-20T23:11:27.821Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f40201c7d0ac61a9a2976c3"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    }
+  ],
+  "udid": "af36c928-90ec-4059-ae85-255654e20156",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-21T19:27:24.156Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-21T10:04:50.105Z"
+  },
+  "__v": 6,
+  "fcmToken": "fok1Dgh-wER1hrgmgYLmso:APA91bEXRAIyXjHOzYCM5ap6ifwwhVD3WF8_EMMtZ9y5ZNRTxltVrWJYdukgZn36-NvZIARBLIBCAIptRMFBtb6VNHC6vOs5Yfkj90GRiXdnahnaStE2swCZ3RVV8XUP4iyviGqnf680"
+},{
+  "_id": {
+    "$oid": "5f4156c17d0ac61a9a2976c4"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f51"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f50"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f54"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f53"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f58"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f5a"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f57"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f55"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    {
+      "$oid": "5f1935284911073ac0452f52"
+    },
+    {
+      "$oid": "5f227603b9af046f98049b5b"
+    }
+  ],
+  "udid": "e8e6a11c-968e-456a-9441-0e2641ab227c",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-22T17:32:49.295Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-22T17:34:13.720Z"
+  },
+  "__v": 2,
+  "fcmToken": "fGQ-y6ABZEDElKNtH_zwhW:APA91bHmTjZwCwGCJxKmRAwX84Ohy_EpRqNDY3ennikmirOSqHIKHeAKZvLBBlRkYDSwsyez3CV0TU-jvifPHbpl0tcE9EbJ7Kq4jsUnHQomKNMhSA39142d3C6GPTJD6ACimAnh1VGW"
+},{
+  "_id": {
+    "$oid": "5f4157bb7d0ac61a9a2976cf"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "10952c3e-f589-483c-8bf2-87d096c768e0",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-22T17:36:59.163Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-22T17:36:59.582Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f42ded37d0ac61a9a2976d0"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "9486fce4-c94a-440f-9cca-4eb03291e564",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-23T21:25:39.333Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-23T21:25:39.806Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f42dfae7d0ac61a9a2976d8"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f4f"
+    }
+  ],
+  "udid": "282b8942-c631-4f9b-9a93-9d9dadcc7efd",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-23T21:29:18.281Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-23T21:30:54.704Z"
+  },
+  "__v": 1,
+  "fcmToken": "c1LyQt_iJ0nYl2IV2F1e9l:APA91bF-KetRo417NhFbFlGAE1qDxFLViaVq95fS75v0O0TREAYQETc6eiCNZHdNt445e3oPhkzswZrB-W2QAd8fyepphEuvT_l0-7slLAGev6GEQodUv4w7Qq18pHlX6_C8Cqj_8gCZ"
+},{
+  "_id": {
+    "$oid": "5f44055a50801e1638bcc3bc"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "ab4f63e5-bb05-4277-aed7-ae7680957d2f",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-24T18:22:18.434Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-24T18:22:18.434Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f46afef50801e1638bcc3bd"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "5abec72d-5b56-47b6-af82-d4c814bdd90f",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-08-26T18:54:39.404Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-26T18:54:39.404Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5564817d0ac61a9a2976e7"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "46f2cb55-28e1-4292-9efb-e77bccd9cb5a",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-06T22:36:49.731Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-06T22:37:38.607Z"
+  },
+  "__v": 2,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f55654d7d0ac61a9a2976e8"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "fbf3ac92-3a43-4403-b86e-562d1cc320d5",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-06T22:40:13.197Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-06T22:40:13.627Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f5e51377f66f839d787539d"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "1934d161-8f46-427c-8e0c-959fb110ac90",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-13T17:04:55.329Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-13T17:05:51.041Z"
+  },
+  "__v": 0,
+  "fcmToken": "cyws30YwR5OquSaHQVBhOF:APA91bHVD4QAE9WDYWmSkGBN7nnFqpZSANf8p6OQ_ZLlaly8z4S2OXgA1bgltUH6_2Fj_gVpyvkS6Jk29QYLExYw7IVVjd10UEazqb0veFonc2JTngPTWInwf1yyhyFS44brgA6N3aoI"
+},{
+  "_id": {
+    "$oid": "5f5e59a97f66f839d78753a8"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "3606b9f2-2aee-4d01-bec8-0cb90efd2b66",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-13T17:40:57.673Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-13T17:40:57.950Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f5e8c4c7d0ac61a9a2976ea"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "6f228e83-77be-4f4e-812f-70e276f8b1e1",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-13T21:17:00.584Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-13T21:17:01.008Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f5ede1d7d0ac61a9a2976f5"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "07b03cb5-6d2b-4021-afa7-a03938ad02ff",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-14T03:06:05.560Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-14T03:06:05.947Z"
+  },
+  "__v": 0,
+  "fcmToken": "czYPWeduxEbStkZPtDBMuN:APA91bG8RQe_WkHvMHTWB3K1MiB7foSD49og-yVOapZnfZMVTjskJ-Zqb2RGWDh3GlJvp7SkhoPmePBzUB7dbV9ej2tnJa5RVBSn2w4WGEspRlPSND1gxKSUA4625OMAJRJOWUJENBWE"
+},{
+  "_id": {
+    "$oid": "5f61a9e97f66f839d78753a9"
+  },
+  "favorites": [],
+  "listLocation": [],
+  "udid": "f6945e0f-1e2f-4a98-a529-134722eef6a2",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-16T06:00:09.130Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-16T06:00:09.600Z"
+  },
+  "__v": 0,
+  "fcmToken": ""
+},{
+  "_id": {
+    "$oid": "5f6761aa7d0ac61a9a2976fd"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f59"
+    }
+  ],
+  "udid": "e493a056-78b1-42c0-921c-66d48f2db0a4",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-20T14:05:30.015Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-22T16:22:08.715Z"
+  },
+  "__v": 1,
+  "fcmToken": "fs19JkWcSUXNsnRvhVhZTD:APA91bEDcOEV1Et9LMqubPB5fAsBru_suje0-SSP3bRKhpnAbtVhnPB5eBzGMP58FoeFnkAxPPAyTNjlnJJu1kZvB8roQ_8fzb3Qf4ZLKePbU26amzBbfH2Nj1g4sF1n0Qm_n1F0lpxU"
+},{
+  "_id": {
+    "$oid": "5f69b3fa7d0ac61a9a29770f"
+  },
+  "favorites": [],
+  "listLocation": [
+    {
+      "$oid": "5f1935284911073ac0452f56"
+    }
+  ],
+  "udid": "f13dee3b-f354-4e4b-ba2d-b13e5830d79a",
+  "setting": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "createdAt": {
+    "$date": "2020-09-22T08:21:14.274Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-22T08:21:38.907Z"
+  },
+  "__v": 1,
+  "fcmToken": "fDpCL6XmMkDumF_GHForUB:APA91bEZxfJWdRVa3aOMZb4LifOs-Q64UfhnZNIwNSrWKKe8z6SK-cYKK5HKMSJOzp_d1j1Eccxz2PbyCChBmDho7Kn4eKFQagHeOhVROsxGN4MZObc2I5V0nwOpvVZLF2pF_7ZIwcyM"
+}]

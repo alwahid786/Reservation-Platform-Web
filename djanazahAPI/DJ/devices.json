@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "5ef3113ca7c23028488b2621"
+  },
+  "favorites": [
+    {
+      "$oid": "5ef3305febe6a51ea0999876"
+    }
+  ],
+  "setting": {
+    "$oid": "5ef41be26ab6973ac0eb2fb1"
+  },
+  "udid": "asdas-asdas-1531515",
+  "createdAt": {
+    "$date": "2020-06-24T08:39:24.321Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-24T12:03:58.812Z"
+  },
+  "__v": 29
+}]

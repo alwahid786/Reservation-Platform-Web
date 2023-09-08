@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "5ef065116bb6103270fc92db"
+  },
+  "categoryId": [
+    {
+      "$oid": "5ef3305febe6a51ea0999876"
+    }
+  ],
+  "title": "Gedurende het overlijden",
+  "createdAt": {
+    "$date": "2020-06-22T08:00:17.117Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-31T09:05:11.254Z"
+  },
+  "__v": 0
+}]

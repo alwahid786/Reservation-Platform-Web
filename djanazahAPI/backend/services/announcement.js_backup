@@ -1,0 +1,708 @@
+const AnnouncementModel = require("../models/Announcement");
+const DeviceModel = require("../models/Device");
+const CountryModel = require("../models/Country");
+const ProvinceModel = require("../models/Province");
+const HonorificModel = require("../models/Honorific");
+const GenderModel = require("../models/Gender");
+const TimeSettingModel = require("../models/TimeSetting");
+
+const Response = require("../ulti/response");
+const Pagination = require("../ulti/pagination");
+
+const admin = require("../ulti/admin-firebase");
+const { AddMinutes } = require("../ulti/add-minutes");
+const { CompareByDateWithToday } = require("../ulti/compareByDateWithToday");
+const { ConvertToDate } = require("../ulti/convertToDate");
+const { ConvertToTime } = require("../ulti/convertToTime");
+
+exports.AnnouncementServices = {
+  GetListAnnouncement: async (udid, currentDate) => {
+    const date = new Date(currentDate);
+
+    const upcomingAn = await AnnouncementModel.find({
+      udid: { $ne: "deleted" },
+      "janazahDetails.date": {
+        $gte: new Date(date.getFullYear(), date.getMonth(), date.getDate()),
+      },
+    }).sort("-janazahDetails.date");
+
+    const pastAn = await AnnouncementModel.find({
+      udid: { $ne: "deleted" },
+      "janazahDetails.date": {
+        $lt: new Date(date.getFullYear(), date.getMonth(), date.getDate()),
+      },
+    })
+      .limit(100)
+      .sort("-janazahDetails.date");
+
+    const finalAnnouncements = upcomingAn.concat(pastAn);
+
+    const gender = await GenderModel.find();
+    const area = await CountryModel.find().populate("provinces");
+
+    const result = {
+      announcements: finalAnnouncements,
+      gender: gender,
+      area: area,
+    };
+    return result;
+  },
+  CreateAnnouncement: async (udid, formValue) => {
+    const invalid = {
+      status: false,
+      message: "Invalid Input",
+    };
+
+    //#region deceasedDetails
+    const deceasedDetails = {
+      gender: "",
+      noName: "",
+      firstname: "",
+      lastname: "",
+      knownAs: "",
+    };
+    deceasedDetails.noName = formValue.deceasedDetails.noName.value;
+    if (!formValue.deceasedDetails.noName.value) {
+      if (
+        formValue.deceasedDetails.firstname.value !== "" &&
+        formValue.deceasedDetails.lastname.value !== ""
+      ) {
+        deceasedDetails.gender = formValue.deceasedDetails.gender.value;
+        deceasedDetails.firstname = formValue.deceasedDetails.firstname.value;
+        deceasedDetails.lastname = formValue.deceasedDetails.lastname.value;
+        deceasedDetails.knownAs = formValue.deceasedDetails.knownAs.value;
+      } else return invalid;
+    } else {
+      deceasedDetails.gender = formValue.deceasedDetails.gender.value;
+    }
+
+    //#endregion
+
+    //#region burialDetails
+    const burialDetails = {
+      toggle: "",
+      city: "",
+      name: "",
+      date: "",
+      time: "",
+      address: "",
+      note: "",
+    };
+    burialDetails.toggle = formValue.burialDetails.toggle.value;
+    if (formValue.burialDetails.toggle.value) {
+      if (
+        formValue.burialDetails.city.value !== "" &&
+        formValue.burialDetails.name.value !== "" &&
+        formValue.burialDetails.date.value !== "" &&
+        formValue.burialDetails.time.value !== "" &&
+        formValue.burialDetails.address.value !== ""
+      ) {
+        burialDetails.city = formValue.burialDetails.city.value;
+        burialDetails.name = formValue.burialDetails.name.value;
+        burialDetails.date = formValue.burialDetails.date.value;
+        burialDetails.time = formValue.burialDetails.time.value;
+        burialDetails.address = formValue.burialDetails.address.value;
+      } else return invalid;
+    }
+    burialDetails.note = formValue.burialDetails.note.value;
+    //#endregion
+
+    //#region janazahDetails
+    const janazahDetails = {
+      country: null,
+      province: null,
+      city: "",
+      name: "",
+      date: "",
+      time: "",
+      address: "",
+      note: "",
+    };
+    if (
+      formValue.janazahDetails.country.value !== "" &&
+      formValue.janazahDetails.province.value !== "" &&
+      formValue.janazahDetails.city.value !== "" &&
+      formValue.janazahDetails.name.value !== "" &&
+      formValue.janazahDetails.date.value !== "" &&
+      formValue.janazahDetails.time.value !== "" &&
+      formValue.janazahDetails.address.value !== ""
+    ) {
+      let date = new Date();
+      janazahDetails.country = formValue.janazahDetails.country.value;
+      janazahDetails.province = formValue.janazahDetails.province.value;
+      janazahDetails.city = formValue.janazahDetails.city.value;
+      janazahDetails.name = formValue.janazahDetails.name.value;
+      janazahDetails.date = formValue.janazahDetails.date.value;
+      janazahDetails.time = formValue.janazahDetails.time.value;
+      janazahDetails.address = formValue.janazahDetails.address.value;
+    } else return invalid;
+
+    //#endregion
+
+    const newAnnouncement = {
+      udid: udid,
+      deceasedDetails: deceasedDetails,
+      burialDetails: burialDetails,
+      janazahDetails: janazahDetails,
+    };
+
+    const createdAnnouncement = await AnnouncementModel.create(newAnnouncement);
+    return {
+      status: true,
+      data: createdAnnouncement._id,
+    };
+  },
+  DeleteAnnouncement: async (id, udid) => {
+    const announcement = await AnnouncementModel.findOne({ _id: id });
+
+    const result = await AnnouncementModel.updateOne(
+      { _id: id },
+      { lastUdid: udid, udid: "deleted" }
+    );
+    if (result)
+      return {
+        status: true,
+        announcement: announcement,
+      };
+    return {
+      status: false,
+    };
+  },
+  GetAnnouncement: async (id) => {
+    const result = await AnnouncementModel.findOne({ _id: id });
+    return result;
+  },
+  UpdateAnnouncement: async (id, formValue) => {
+    const invalid = {
+      status: false,
+      message: "Invalid Input",
+    };
+
+    //#region deceasedDetails
+    const deceasedDetails = {
+      gender: "",
+      noName: "",
+      firstname: "",
+      lastname: "",
+      knownAs: "",
+    };
+    deceasedDetails.noName = formValue.deceasedDetails.noName.value;
+    if (!formValue.deceasedDetails.noName.value) {
+      if (
+        formValue.deceasedDetails.firstname.value !== "" &&
+        formValue.deceasedDetails.lastname.value !== ""
+      ) {
+        deceasedDetails.gender = formValue.deceasedDetails.gender.value;
+        deceasedDetails.firstname = formValue.deceasedDetails.firstname.value;
+        deceasedDetails.lastname = formValue.deceasedDetails.lastname.value;
+        deceasedDetails.knownAs = formValue.deceasedDetails.knownAs.value;
+      } else return invalid;
+    } else {
+      deceasedDetails.gender = formValue.deceasedDetails.gender.value;
+    }
+
+    //#endregion
+
+    //#region burialDetails
+    const burialDetails = {
+      toggle: "",
+      city: "",
+      name: "",
+      date: "",
+      time: "",
+      address: "",
+      note: "",
+    };
+    burialDetails.toggle = formValue.burialDetails.toggle.value;
+    if (formValue.burialDetails.toggle.value) {
+      if (
+        formValue.burialDetails.city.value !== "" &&
+        formValue.burialDetails.name.value !== "" &&
+        formValue.burialDetails.date.value !== "" &&
+        formValue.burialDetails.time.value !== "" &&
+        formValue.burialDetails.address.value !== ""
+      ) {
+        burialDetails.city = formValue.burialDetails.city.value;
+        burialDetails.name = formValue.burialDetails.name.value;
+        burialDetails.date = formValue.burialDetails.date.value;
+        burialDetails.time = formValue.burialDetails.time.value;
+        burialDetails.address = formValue.burialDetails.address.value;
+      } else return invalid;
+    }
+    burialDetails.note = formValue.burialDetails.note.value;
+    //#endregion
+
+    //#region janazahDetails
+    const janazahDetails = {
+      country: null,
+      province: null,
+      city: "",
+      name: "",
+      date: "",
+      time: "",
+      address: "",
+      note: "",
+    };
+    if (
+      formValue.janazahDetails.country.value !== "" &&
+      formValue.janazahDetails.province.value !== "" &&
+      formValue.janazahDetails.city.value !== "" &&
+      formValue.janazahDetails.name.value !== "" &&
+      formValue.janazahDetails.date.value !== "" &&
+      formValue.janazahDetails.time.value !== "" &&
+      formValue.janazahDetails.address.value !== ""
+    ) {
+      janazahDetails.country = formValue.janazahDetails.country.value;
+      janazahDetails.province = formValue.janazahDetails.province.value;
+      janazahDetails.city = formValue.janazahDetails.city.value;
+      janazahDetails.name = formValue.janazahDetails.name.value;
+      janazahDetails.date = formValue.janazahDetails.date.value;
+      janazahDetails.time = formValue.janazahDetails.time.value;
+      janazahDetails.address = formValue.janazahDetails.address.value;
+    } else return invalid;
+
+    //#endregion
+
+    const updatedAnnouncement = {
+      deceasedDetails: deceasedDetails,
+      burialDetails: burialDetails,
+      janazahDetails: janazahDetails,
+    };
+
+    await AnnouncementModel.updateOne({ _id: id }, updatedAnnouncement);
+
+    return true;
+  },
+  SendNotification: async (id, udid, type, deletedAnnouncement = null) => {
+    let announcement = deletedAnnouncement;
+    if (announcement === null) {
+      announcement = await AnnouncementModel.findOne({ _id: id });
+    }
+    const deviceInCountry = await DeviceModel.find(
+      {
+        listLocation: announcement.janazahDetails.province,
+        udid: { $ne: udid },
+        fcmToken: { $nin: [" ", ""] },
+      },
+      "fcmToken -_id"
+    );
+
+    const registrationTokens = [];
+    for (const device of deviceInCountry) {
+      registrationTokens.push(device.fcmToken);
+    }
+
+    if (registrationTokens.length > 0) {
+      //#region Create Announcement
+      let title = `Djanazah Gebeden: New Announcement!`;
+      let body = `${ConvertToDate(announcement.janazahDetails.date)} | ${
+        announcement.janazahDetails.city
+      } | ${announcement.janazahDetails.name}`;
+      //#endregion
+
+      //#region Update Announcement
+      if (type === "update") {
+        title = "Djanazah Gebeden!";
+        body = `${ConvertToDate(announcement.janazahDetails.date)} | ${
+          announcement.janazahDetails.city
+        } | ${announcement.janazahDetails.name}`;
+      }
+      //#endregion
+
+      //#region Delete Announcement
+      if (type === "delete") {
+        title = "Djanazah Gebeden: Delete Announcement!";
+        body = `${ConvertToDate(announcement.janazahDetails.date)} | ${
+          announcement.janazahDetails.city
+        } | ${announcement.janazahDetails.name}`;
+      }
+      //#endregion
+
+      let message = {
+        notification: {
+          title: title,
+          body: body,
+        },
+        data: { type: type },
+        tokens: registrationTokens,
+      };
+      const response = await admin.messaging().sendMulticast(message);
+
+      if (response.failureCount > 0) {
+        const failedTokens = [];
+        response.responses.forEach((resp, idx) => {
+          if (!resp.success) {
+            failedTokens.push(registrationTokens[idx]);
+            console.log(resp);
+          }
+        });
+        console.log("List of tokens that caused failures: " + failedTokens);
+      }
+    }
+  },
+  CheckCreate: async (udid) => {
+    const time = new Date();
+    const announcement = await AnnouncementModel.findOne({
+      udid: udid,
+    }).sort("-createdAt");
+    const timeDelay = await TimeSettingModel.findOne({ name: "default" });
+    if (announcement) {
+      let announcementTime = AddMinutes(
+        new Date(announcement.createdAt),
+        +timeDelay.allowCreateDelay
+      );
+      if (time < announcementTime) return false;
+    }
+    return true;
+  },
+  /*----------------------*/
+  /*----------------------*/
+  GetSingleAnnouncement: async (id) => {
+    const response = new Response();
+    const announcement = await (
+      await AnnouncementModel.findOne({ _id: id })
+    ).populate("area.country area.province");
+    if (announcement) response.setSuccess(200, announcement);
+    else response.setError(404, "Not Found");
+    return response;
+  },
+  GetPaginatedAnnouncement: async (page, search) => {
+    const response = new Response();
+    const pagination = new Pagination(AnnouncementModel, "/announcement/all");
+    const regex = { $regex: search, $options: "i" };
+    const query = {
+      $or: [
+        { "deceasedDetails.firstname": regex },
+        { "deceasedDetails.lastname": regex },
+        { "deceasedDetails.knowAs": regex },
+      ],
+    };
+    const populate =
+      "deceasedDetails.gender janazahDetails.country janazahDetails.province";
+    const announcements = await pagination.getData(
+      page,
+      search,
+      query,
+      populate
+    );
+    response.setSuccess(200, announcements);
+    return response;
+  },
+  CreateAdminAnnouncement: async (formValue) => {
+    const response = new Response();
+
+    //#region deceasedDetails
+    const deceasedDetails = {
+      gender: null,
+      noName: false,
+      firstname: "",
+      lastname: "",
+      knownAs: "",
+    };
+    deceasedDetails.noName = formValue.deceasedDetails.noName.value;
+    if (!formValue.deceasedDetails.noName.value) {
+      if (
+        formValue.deceasedDetails.firstname.value !== "" &&
+        formValue.deceasedDetails.lastname.value !== ""
+      ) {
+        deceasedDetails.gender = formValue.deceasedDetails.gender.value;
+        deceasedDetails.firstname = formValue.deceasedDetails.firstname.value;
+        deceasedDetails.lastname = formValue.deceasedDetails.lastname.value;
+        deceasedDetails.knownAs = formValue.deceasedDetails.knownAs.value;
+      } else {
+        response.setError(422, "Invalid Input");
+        return response;
+      }
+    } else {
+      deceasedDetails.gender = formValue.deceasedDetails.gender.value;
+    }
+    //#endregion
+
+    //#region burialDetails
+    const burialDetails = {
+      toggle: true,
+      city: "",
+      name: "",
+      date: "",
+      time: "",
+      address: "",
+      note: "",
+    };
+    burialDetails.toggle = formValue.burialDetails.toggle.value;
+    if (formValue.burialDetails.toggle.value) {
+      if (
+        formValue.burialDetails.city.value !== "" &&
+        formValue.burialDetails.name.value !== "" &&
+        formValue.burialDetails.date.value !== "" &&
+        formValue.burialDetails.time.value !== "" &&
+        formValue.burialDetails.date.value !== null &&
+        formValue.burialDetails.time.value !== null &&
+        formValue.burialDetails.address.value !== ""
+      ) {
+        burialDetails.city = formValue.burialDetails.city.value;
+        burialDetails.name = formValue.burialDetails.name.value;
+        burialDetails.date = formValue.burialDetails.date.value;
+        burialDetails.time = formValue.burialDetails.time.value;
+        burialDetails.address = formValue.burialDetails.address.value;
+      } else {
+        response.setError(422, "Invalid Input");
+        return response;
+      }
+    }
+    burialDetails.note = formValue.burialDetails.note.value;
+    //#endregion
+
+    //#region janazahDetails
+    const janazahDetails = {
+      country: null,
+      province: null,
+      city: "",
+      name: "",
+      date: "",
+      time: "",
+      address: "",
+      note: "",
+    };
+    if (
+      formValue.janazahDetails.country.value !== "" &&
+      formValue.janazahDetails.province.value !== "" &&
+      formValue.janazahDetails.city.value !== "" &&
+      formValue.janazahDetails.name.value !== "" &&
+      formValue.janazahDetails.date.value !== "" &&
+      formValue.janazahDetails.time.value !== "" &&
+      formValue.janazahDetails.date.value !== null &&
+      formValue.janazahDetails.time.value !== null &&
+      formValue.janazahDetails.address.value !== ""
+    ) {
+      janazahDetails.country = formValue.janazahDetails.country.value;
+      janazahDetails.province = formValue.janazahDetails.province.value;
+      janazahDetails.city = formValue.janazahDetails.city.value;
+      janazahDetails.name = formValue.janazahDetails.name.value;
+      janazahDetails.date = formValue.janazahDetails.date.value;
+      janazahDetails.time = formValue.janazahDetails.time.value;
+      janazahDetails.address = formValue.janazahDetails.address.value;
+    } else {
+      response.setError(422, "Invalid Input");
+      return response;
+    }
+    //#endregion
+
+    const newAnnouncement = {
+      udid: "admin",
+      deceasedDetails: deceasedDetails,
+      burialDetails: burialDetails,
+      janazahDetails: janazahDetails,
+    };
+
+    const createdAnnouncement = await AnnouncementModel.create(newAnnouncement);
+    response.setSuccess(200, createdAnnouncement);
+    return response;
+  },
+  UpdateDeviceAnnouncement: async (formValue) => {
+    const response = new Response();
+
+    //#region deceasedDetails
+    const deceasedDetails = {
+      gender: null,
+      noName: false,
+      firstname: "",
+      lastname: "",
+      knownAs: "",
+    };
+    deceasedDetails.noName = formValue.deceasedDetails.noName.value;
+    if (!formValue.deceasedDetails.noName.value) {
+      if (
+        formValue.deceasedDetails.firstname.value !== "" &&
+        formValue.deceasedDetails.lastname.value !== ""
+      ) {
+        deceasedDetails.gender = formValue.deceasedDetails.gender.value;
+        deceasedDetails.firstname = formValue.deceasedDetails.firstname.value;
+        deceasedDetails.lastname = formValue.deceasedDetails.lastname.value;
+        deceasedDetails.knownAs = formValue.deceasedDetails.knownAs.value;
+      } else {
+        response.setError(422, "Invalid Input");
+        return response;
+      }
+    } else {
+      deceasedDetails.gender = formValue.deceasedDetails.gender.value;
+    }
+    //#endregion
+
+    //#region burialDetails
+    const burialDetails = {
+      toggle: true,
+      city: "",
+      name: "",
+      date: "",
+      time: "",
+      address: "",
+      note: "",
+    };
+    burialDetails.toggle = formValue.burialDetails.toggle.value;
+    if (formValue.burialDetails.toggle.value) {
+      if (
+        formValue.burialDetails.city.value !== "" &&
+        formValue.burialDetails.name.value !== "" &&
+        formValue.burialDetails.date.value !== "" &&
+        formValue.burialDetails.time.value !== "" &&
+        formValue.burialDetails.date.value !== null &&
+        formValue.burialDetails.time.value !== null &&
+        formValue.burialDetails.address.value !== ""
+      ) {
+        burialDetails.city = formValue.burialDetails.city.value;
+        burialDetails.name = formValue.burialDetails.name.value;
+        burialDetails.date = formValue.burialDetails.date.value;
+        burialDetails.time = formValue.burialDetails.time.value;
+        burialDetails.address = formValue.burialDetails.address.value;
+      } else {
+        response.setError(422, "Invalid Input");
+        return response;
+      }
+    }
+    burialDetails.note = formValue.burialDetails.note.value;
+    //#endregion
+
+    //#region janazahDetails
+    const janazahDetails = {
+      country: null,
+      province: null,
+      city: "",
+      name: "",
+      date: "",
+      time: "",
+      address: "",
+      note: "",
+    };
+    if (
+      formValue.janazahDetails.country.value !== "" &&
+      formValue.janazahDetails.province.value !== "" &&
+      formValue.janazahDetails.city.value !== "" &&
+      formValue.janazahDetails.name.value !== "" &&
+      formValue.janazahDetails.date.value !== "" &&
+      formValue.janazahDetails.time.value !== "" &&
+      formValue.janazahDetails.date.value !== null &&
+      formValue.janazahDetails.time.value !== null &&
+      formValue.janazahDetails.address.value !== ""
+    ) {
+      janazahDetails.country = formValue.janazahDetails.country.value;
+      janazahDetails.province = formValue.janazahDetails.province.value;
+      janazahDetails.city = formValue.janazahDetails.city.value;
+      janazahDetails.name = formValue.janazahDetails.name.value;
+      janazahDetails.date = formValue.janazahDetails.date.value;
+      janazahDetails.time = formValue.janazahDetails.time.value;
+      janazahDetails.address = formValue.janazahDetails.address.value;
+    } else {
+      response.setError(422, "Invalid Input");
+      return response;
+    }
+    //#endregion
+
+    const newAnnouncement = {
+      deceasedDetails: deceasedDetails,
+      burialDetails: burialDetails,
+      janazahDetails: janazahDetails,
+    };
+
+    await AnnouncementModel.updateOne(
+      { _id: formValue.id.value },
+      newAnnouncement
+    );
+    response.setSuccess(200, "success");
+    return response;
+  },
+  DeleteDeviceAnnouncement: async (id) => {
+    const response = new Response();
+    const deletedAnnouncement = await AnnouncementModel.findOne({
+      _id: id,
+    });
+    if (deletedAnnouncement) {
+      response.setSuccess(200, deletedAnnouncement);
+      await deletedAnnouncement.deleteOne();
+    } else response.setError(404, "Not found");
+    return response;
+  },
+  GetGenderList: async () => {
+    const response = new Response();
+    const gender = await GenderModel.find();
+    response.setSuccess(200, gender);
+    return response;
+  },
+  SendNotificationById: async (id, type, deletedAnnouncement = null) => {
+    let announcement = deletedAnnouncement;
+    if (announcement === null)
+      announcement = await AnnouncementModel.findOne({ _id: id });
+
+    if (!announcement.isPushNoti)
+      await AnnouncementModel.updateOne({ _id: id }, { isPushNoti: true });
+    else return;
+
+    if (announcement.udid !== "deleted") {
+      const deviceInCountry = await DeviceModel.find(
+        {
+          listLocation: announcement.janazahDetails.province,
+          fcmToken: { $nin: [" ", ""] },
+        },
+        "fcmToken -_id"
+      );
+
+      const registrationTokens = [];
+      for (const device of deviceInCountry) {
+        registrationTokens.push(device.fcmToken);
+      }
+
+      if (registrationTokens.length > 0) {
+        //#region Create Announcement
+        let title = `Djanazah Gebeden: New Announcement!`;
+        let body = `${ConvertToDate(announcement.janazahDetails.date)} | ${
+          announcement.janazahDetails.city
+        } | ${announcement.janazahDetails.name}`;
+        //#endregion
+
+        //#region Update Announcement
+        if (type === "update") {
+          title = "Djanazah Gebeden!";
+          body = `${ConvertToDate(
+            announcement.janazahDetails.date
+          )} ${ConvertToTime(announcement.janazahDetails.time)} | ${
+            announcement.janazahDetails.city
+          } | ${announcement.janazahDetails.name}`;
+        }
+        //#endregion
+
+        //#region Delete Announcement
+        if (type === "delete") {
+          title = "Djanazah Gebeden: Delete Announcement!";
+          body = `${ConvertToDate(announcement.janazahDetails.date)} | ${
+            announcement.janazahDetails.city
+          } | ${announcement.janazahDetails.name}`;
+        }
+        //#endregion
+
+        let message = {
+          notification: {
+            title: title,
+            body: body,
+          },
+          data: { type: type },
+          tokens: registrationTokens,
+          apns: {
+            payload: {
+              aps: { badge: 1 },
+            },
+          },
+        };
+        const response = await admin.messaging().sendMulticast(message);
+
+        if (response.failureCount > 0) {
+          const failedTokens = [];
+          response.responses.forEach((resp, idx) => {
+            if (!resp.success) {
+              failedTokens.push(registrationTokens[idx]);
+            }
+          });
+          console.log("List of tokens that caused failures: " + failedTokens);
+        }
+      }
+    }
+  },
+};

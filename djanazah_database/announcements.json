@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "5f573a547d0ac61a9a2976e9"
+  },
+  "udid": "af36c928-90ec-4059-ae85-255654e20156",
+  "deceasedDetails": {
+    "gender": {
+      "$oid": "5f156de1a7464427840478a4"
+    },
+    "noName": false,
+    "firstname": "Ahmed",
+    "lastname": "El Haddioui",
+    "knownAs": "Schoonvader Kamal Rahaoui"
+  },
+  "burialDetails": {
+    "toggle": false,
+    "city": "",
+    "name": "",
+    "date": "",
+    "time": "",
+    "address": "",
+    "note": ""
+  },
+  "janazahDetails": {
+    "country": {
+      "$oid": "5f1935284911073ac0452f5b"
+    },
+    "province": {
+      "$oid": "5f1935284911073ac0452f4f"
+    },
+    "city": "Zuid-laren",
+    "name": "begraafplaats zuid laren",
+    "date": {
+      "$date": "2020-09-09T07:58:11.677Z"
+    },
+    "time": "2020-09-08T15:00:11.685+02:00",
+    "address": "Annerweg  27a"
+  },
+  "createdAt": {
+    "$date": "2020-09-08T08:01:24.628Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-08T08:01:24.628Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f67639b7d0ac61a9a297708"
+  },
+  "udid": "e493a056-78b1-42c0-921c-66d48f2db0a4",
+  "deceasedDetails": {
+    "gender": {
+      "$oid": "5f156e01a7464427840478a5"
+    },
+    "noName": false,
+    "firstname": "Khadija",
+    "lastname": "El Farrad",
+    "knownAs": ""
+  },
+  "burialDetails": {
+    "toggle": false,
+    "city": "",
+    "name": "",
+    "date": "",
+    "time": "",
+    "address": "",
+    "note": ""
+  },
+  "janazahDetails": {
+    "country": {
+      "$oid": "5f1935284911073ac0452f5b"
+    },
+    "province": {
+      "$oid": "5f1935284911073ac0452f59"
+    },
+    "city": "Utrecht",
+    "name": "Moskee Leidsche Rijn",
+    "date": {
+      "$date": "2020-09-20T14:10:42.043Z"
+    },
+    "time": "2020-09-20T15:00:35.769Z",
+    "address": "Pratumplaats \n"
+  },
+  "createdAt": {
+    "$date": "2020-09-20T14:13:47.660Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-20T14:33:09.477Z"
+  },
+  "__v": 0
+}]

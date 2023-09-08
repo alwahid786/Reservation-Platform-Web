@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "5ef46123b184263b5885c340"
+  },
+  "name": "Drenthe"
+},{
+  "_id": {
+    "$oid": "5ef46136b184263b5885c341"
+  },
+  "name": "Flevoland"
+},{
+  "_id": {
+    "$oid": "5ef46148b184263b5885c342"
+  },
+  "name": "Antwerpen"
+},{
+  "_id": {
+    "$oid": "5ef4615ab184263b5885c343"
+  },
+  "name": "Brussel"
+}]

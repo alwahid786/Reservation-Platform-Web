@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "5ef33d16b184263b5885c33b"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset All Setting"
+    },
+    "title": "application",
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    }
+  },
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "arabic font size",
+    "value": 20
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Show Arabic"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Show Transliteration"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Show Translation"
+      }
+    ],
+    "title": "subject settings"
+  },
+  "udid": "default",
+  "createdAt": {
+    "$date": "2020-06-24T12:04:25.505Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-25T03:33:38.276Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ef41be26ab6973ac0eb2fb1"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset All Setting"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "application"
+  },
+  "udid": "asdas-asdas-1531515",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "arabic font size",
+    "value": 20
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Show Arabic"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Show Transliteration"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Show Translation"
+      }
+    ],
+    "title": "subject settings"
+  },
+  "createdAt": {
+    "$date": "2020-06-25T03:37:06.078Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-25T06:04:28.071Z"
+  }
+}]

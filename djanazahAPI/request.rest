@@ -1,0 +1,801 @@
+### All error: { message: "some error" }
+
+@url = http://192.168.1.105:4500/api/admin
+# admin
+# @token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhb2FuMTExMTFAZ21haWwuY29tIiwidXNlcklkIjoiNWYwMWU0Y2M3NTllZDEyYjA0OGY5M2ZlIiwiaWF0IjoxNTk0MDAwODU5fQ.m05-GZqeMODoYzdtu2GmIhgF3GE6gGT2A4rgzGkdNg4
+
+# support
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhb2FuMTExMTFAZ21haWwuY29tIiwidXNlcklkIjoiNWYyMzkzNGE2YWU2YTg4NDRjYTNjZDQ5IiwiaWF0IjoxNTk2MTY4NTkxfQ.UGi2r2-cjfZVXvxSxVxednDBTY145ybIqUh9xTEgEg0
+
+###
+### Login
+###
+POST {{url}}/auth/login
+Content-Type: application/json 
+
+{
+  "email": "admin@gmail.com",
+  "password": "Admin@456"
+}
+
+###
+### Register
+###
+POST {{url}}/auth/register
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "email": "baoan11111@gmail.com",
+  "password": "m0nKey*D*Luffy",
+  "confirmPassword": "m0nKey*D*Luffy",
+  "name": "An Tran"
+}
+
+###
+### Get info
+###
+GET {{url}}/auth/info
+Authorization: Bearer {{token}}
+
+###
+### Update info
+###
+PUT {{url}}/auth/update-info
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Khoa Nguyen"
+}
+
+###
+### Update password
+###
+PUT {{url}}/auth/update-password
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "oldPassword": "m0nKey*D*Dragon",
+  "newPassword": "Admin@123",
+  "confirmPassword": "Admin@123"
+}
+
+###
+### Update support info
+###
+PUT {{url}}/auth/update-support
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "userId": "5f210222ead4c85754f640eb",
+  "name": "Khoa Nguyen"
+}
+
+###
+### Update support password
+###
+PUT {{url}}/auth/update-support-password
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "userId": "5f210222ead4c85754f640eb",  
+  "newPassword": "m0nKey*D*Dragon",
+  "confirmPassword": "m0nKey*D*Dragon"
+}
+
+###
+### Delete support
+###
+@userId = 5f01e4cc759ed12b048f93fe
+DELETE {{url}}/auth/delete-support/{{userId}}
+Authorization: Bearer {{token}}
+
+####################################################################### Subject
+
+###
+### Get Subject List
+###
+GET {{url}}/subject/all
+Authorization: Bearer {{token}}
+
+###
+### Get Subject
+###
+@categoryId = 5ef3305febe6a51ea0999876
+GET {{url}}/subject/category/{{categoryId}}
+Authorization: Bearer {{token}}
+
+###
+### Create Subject
+###
+POST {{url}}/subject/create
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": {
+    "value": "alskj nlkasmdk akmskdmk;la sd asd asd as"
+  },
+  "category": [
+    {
+      "name": {
+        "value": "a;s d;f a; s;;as; ;dkasn dlaslkd lkaskd"
+      },
+      "content": {
+        "langara": {
+          "value": "xzc zxc zxc zxczx cz xcz cz xcz xcz xcz xc"
+        },
+        "langeng": {
+          "value": "qw eq weq we qwe qwe qw eq we qwe qwe "
+        },
+        "langtranslit": {
+          "value": " uiouio uio uiou iou io uio uio uioui"
+        }
+      }
+    },
+    {
+      "name": {
+        "value": "165161 6516 1651 1561 511 64156 161 16 519 461"
+      },
+      "content": {
+        "langara": {
+          "value": "adsas das da sda sda sda sd asd asd asd asd as"
+        },
+        "langeng": {
+          "value": "8 7987 987 987 98 798 7 987 98 7 98 7897 987 987"
+        },
+        "langtranslit": {
+          "value": " 4 654 654 65 4654 654 65 4 654 654 654 654 654 654"
+        }
+      }
+    }
+  ]
+}
+
+###
+### Update Subject
+###
+PUT {{url}}/subject/update
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": {
+    "value": "xzcv zxc zxc zxc zx cz xc zxcz xczx cxz",
+    "id": "5f0534b45ddd2539d4c716c6"
+  },
+  "category": [
+    {
+      "name": {
+        "value": "poi poi poi poi poi poopi poi poip",
+        "id":"5f0534b45ddd2539d4c716c4"
+      },
+      "content": {
+        "langara": {
+          "value": "123 321 32 132 3211 3232 121 32132 1231 313"
+        },
+        "langeng": {
+          "value": "zczx vzxcv zxcv zxc vzxc vzxc vzxc "
+        },
+        "langtranslit": {
+          "value": "zcxv xczxzcv zxcv zxc vzx cvzx cvzxc "
+        }
+      }
+    },
+    {
+      "name": {
+        "value": "amnb mnb mnb mnb mnb mnb mnb mnb mn bmn bnm",
+        "id":""
+      },
+      "content": {
+        "langara": {
+          "value": "dasdas das da sd as da sdasda sdas dasd "
+        },
+        "langeng": {
+          "value": "qw eq weq we qwe qwe qw eq we qwe qwe "
+        },
+        "langtranslit": {
+          "value": " uiouio uio uiou iou io uio uio uioui"
+        }
+      }
+    }
+  ]
+}
+
+###
+### Delete Subject
+###
+@subjectId = 
+DELETE {{url}}/subject/delete/{{subjectId}}
+Authorization: Bearer {{token}}
+
+####################################################################### Faq
+
+###
+### Get Faq List
+###
+GET {{url}}/faq/all
+Authorization: Bearer {{token}}
+
+###
+### Create Faq
+###
+POST {{url}}/faq/create
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": {
+    "value": "asda da sda sda sda"
+  },
+  "faqContents": [
+    {
+      "name": {
+        "value": "asd asd asda sda sda sd"
+      },
+      "content": {
+        "value": "asd asda sdasd asd"
+      },
+      "description": {
+        "value": "asd asd asd asd asd"
+      }      
+    }
+  ]  
+}
+
+###
+### Update Faq
+###
+PUT {{url}}/faq/update
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": {
+    "value": "cvzxcvzx zx cvz xcvzxcv zx",
+    "id": "5f0536765dcbe13bd8bfcf81"
+  },
+  "faqContents": [
+    {
+      "name": {
+        "value": "zxcvzx cvz xcvz xc vzxcv",
+        "id": "5f0536765dcbe13bd8bfcf80"
+      },
+      "content": {
+        "value": "zxcvzx cvz xcvz xcvx cvzx cv"
+      },
+      "description": {
+        "value": "zxcv zxcv zxcv zxcv"
+      }      
+    },
+    {
+      "name": {
+        "value": " yuio yuioyuio yuio yu y uio yui oyui",
+        "id": ""
+      },
+      "content": {
+        "value": "yuio yuio yui oy yui y uio"
+      },
+      "description": {
+        "value": " yuio yui oyuioyuio yui oy ui y oo oy "
+      }      
+    }
+  ]
+  
+}
+
+###
+### Delete Faq
+###
+@faqId = 5f05410a90904b3020eed24b
+DELETE {{url}}/faq/delete/{{faqId}}
+Authorization: Bearer {{token}}
+
+####################################################################### Contact
+
+###
+### Get Contact
+###
+GET {{url}}/contact/all
+Authorization: Bearer {{token}}
+
+###
+### Update Contact
+### It is also possible to add new prayer locations or update the information of existing prayer locations
+PUT {{url}}/contact/update
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "info": [
+    {
+      "name": "Email",
+      "value": "abc@gmail.com"
+    },
+    {
+      "name": "Feedback",
+      "value": "feedback@gmail.com"
+    }
+  ]
+}
+
+####################################################################### Setting
+
+###
+### Get Setting
+###
+GET {{url}}/setting/all
+Authorization: Bearer {{token}}
+
+###
+### Update Setting
+###
+PUT {{url}}/setting/update
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "version": {
+    "name": {
+      "value": "Version 1.0.0 (1.0.0)"
+    },
+    "copyright": {
+      "value": "Copyright © 2020 Djanazah Gebed All rights reserved"
+    }
+  },
+  "fontSize": {
+    "defaultValue": {
+      "value": 20
+    },
+    "max": {
+      "value": 40
+    },
+    "min": {
+      "value": 10
+    },
+    "text": {
+      "value": "نص تجريبي"
+    }
+  },
+  "subject": {
+    "arabic": {
+      "value": true
+    },
+    "transliteration": {
+      "value": true
+    },
+    "translation": {
+      "value": true
+    }
+  }
+}
+
+####################################################################### Area
+
+###
+### Get Area
+###
+GET {{url}}/area/all
+Authorization: Bearer {{token}}
+
+###
+### Create Area
+###
+POST {{url}}/area/create
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "country": {
+    "name": {
+      "value": "Belgie"
+    }
+  },
+  "provinces": [
+    {
+      "name": {
+        "value": "Antwerpen"
+      }
+    },
+    {
+      "name": {
+        "value": "Brussel"
+      }
+    },
+    {
+      "name": {
+        "value": "Henegouwen"
+      }
+    }
+  ]
+}
+
+###
+### Update Area
+###
+PUT {{url}}/area/update
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "country": {
+    "name": {
+      "value": "Viet Nam zzz",
+      "id": "5f07ef06067f5211ac4f8855"
+    }
+  },
+  "provinces": [
+    {
+      "name": {
+        "value": "Long An zzzzz",
+        "id": "5f07ef06067f5211ac4f8852"
+      }
+    },
+    {
+      "name": {
+        "value": "Can Tho",
+        "id": ""
+      }
+    }
+  ]
+}
+
+###
+### Delete Area
+###
+@countryId = 5f07f0d532cadf3f90a7ce1b
+DELETE {{url}}/area/delete/{{countryId}}
+Authorization: Bearer {{token}}
+
+####################################################################### Advertisement
+
+###
+### Get Advertisement
+###
+GET {{url}}/advertisement/all
+Authorization: Bearer {{token}}
+
+###
+### Update Advertisement Image
+###
+PUT {{url}}/advertisement/update-image
+Content-Type: multipart/form-data
+Authorization: Bearer {{token}}
+
+{
+  "Ask An for more detail"
+}
+
+###
+### Update Advertisement
+###
+PUT {{url}}/advertisement/update
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "advertisements": [
+    {
+      "name": {
+        "value":"Canva"
+      },
+      "ios": {
+        "value": "https://webcdn-adespressoinc.netdna-ssl.com/wp-content/uploads/2015/07/canva-images.jpg"
+      },
+      "android": {
+        "value": "https://webcdn-adespressoinc.netdna-ssl.com/wp-content/uploads/2015/07/canva-images.jpg"
+      },
+      "isActive": {
+        "value": true
+      }
+    },
+    {
+      "name": {
+        "value": "Facebook"
+      },
+      "ios": {
+        "value": "https://img.atpsoftware.vn/2019/06/cover-image-1.jpg"
+      },
+      "android": {
+        "value": "https://img.atpsoftware.vn/2019/06/cover-image-1.jpg"
+      },
+      "isActive": {
+        "value": true
+      }
+    },
+    {
+      "name": {
+        "value": "Popup"
+      },
+      "ios": {
+        "value": "https://img.atpsoftware.vn/2019/06/cover-image-1.jpg"
+      },
+      "android": {
+        "value": "https://img.atpsoftware.vn/2019/06/cover-image-1.jpg"
+      },
+      "isActive": {
+        "value": true
+      }
+    }
+  ],
+  "admobs": [
+    {
+      "adId": {
+        "ios": {
+          "value": "ca-app-pub-3940256099942544/2934735716"
+        },
+        "android": {
+          "value": "ca-app-pub-3940256099942544/6300978111"
+        }
+      },
+      "isActive": {
+        "value": true
+      },
+      "name": {
+        "value": "Sample 1"
+      }
+    },
+    {
+      "adId": {
+        "ios": {
+          "value": "ca-app-pub-3940256099942544/2934735716"
+        },
+        "android": {
+          "value": "ca-app-pub-3940256099942544/6300978111"
+        }
+      },
+      "isActive": {
+        "value": true
+      },
+      "name": {
+        "value": "Sample 2"
+      }
+    }
+  ]
+}
+
+####################################################################### Announcement
+
+###
+### Get Specific Announcement for View
+###
+@announcementId = 5f1ec7f502e000318c47bc79
+GET {{url}}/announcement/single/{{announcementId}}
+
+###
+### Get Announcements
+###
+GET {{url}}/announcement/all?page=1&search=
+Authorization: Bearer {{token}}
+
+###
+### Push Announcements
+###
+@pushId = 5f21568cb0752a5c9017a426
+GET {{url}}/announcement/push/{{pushId}}
+Authorization: Bearer {{token}}
+
+###
+### Create Admin Announcement
+###
+
+POST {{url}}/announcement/create
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "formValue": {
+    "id": {
+      "value": ""
+    },
+    "deceasedDetails": {
+      "gender": {
+        "value": "5f156de1a7464427840478a4"
+      },
+      "noName": {
+        "value": true
+      },
+      "firstname": {
+        "value": "qwe qwe qwe"
+      },
+      "lastname": {
+        "value": "qwe qwe qwe"
+      },
+      "knownAs": {
+        "value": "qweqw eqw eqw"
+      }
+    },
+    "burialDetails": {
+      "toggle": {
+        "value": true
+      },
+      "city": {
+        "value": "qwe qwe"
+      },
+      "name": {
+        "value": "qwe qwe qwe"
+      },      
+      "date": {
+        "value": "2020-07-21T17:15:46.068+07:00"
+      },
+      "time": {
+        "value": "2020-07-21T17:15:46.068+07:00"
+      },
+      "address": {
+        "value": "qw eqw eq we"
+      },
+      "note": {
+        "value": "qwe qw eq weq we"
+      }
+    },
+    "janazahDetails": {
+      "country": {
+        "value": "5f1935284911073ac0452f5b"
+      },
+      "province": {
+        "value": "5f1935284911073ac0452f4f"
+      },
+      "city": {
+        "value": "qwe qwe"
+      },
+      "name": {
+        "value": "qwe qwe qw e"
+      },
+      "date": {
+        "value": "2020-07-21T17:15:46.068+07:00"
+      },
+      "time": {
+        "value": "2020-07-21T17:15:46.068+07:00"
+      },
+      "address": {
+        "value": "qwe qw eqw e"
+      },
+      "note": {
+        "value": "qwe qw eq we qwe"
+      }
+    }
+  }
+}
+
+###
+### Update Admin Announcement
+###
+
+PUT {{url}}/announcement/update
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "formValue": {
+    "id": {
+      "value": "5f1fa70506389f5d40ed9860"
+    },
+    "deceasedDetails": {
+      "gender": {
+        "value": "5f156e01a7464427840478a5"
+      },
+      "noName": {
+        "value": true
+      },
+      "firstname": {
+        "value": "qwe qwe qwe zzz"
+      },
+      "lastname": {
+        "value": "qwe qwe qwe zzz"
+      },
+      "knownAs": {
+        "value": "qweqw eqw eqw zzz"
+      }
+    },
+    "burialDetails": {
+      "toggle": {
+        "value": true
+      },
+      "city": {
+        "value": "qwe qwe zzz"
+      },
+      "name": {
+        "value": "qwe qwe qwe zzz"
+      },      
+      "date": {
+        "value": "2020-07-21T17:15:46.068+07:00"
+      },
+      "time": {
+        "value": "2020-07-21T17:15:46.068+07:00"
+      },
+      "address": {
+        "value": "qw eqw eq we zzz"
+      },
+      "note": {
+        "value": "qwe qw eq weq we zzz"
+      }
+    },
+    "janazahDetails": {
+      "country": {
+        "value": "5f1935794911073ac0452f69"
+      },
+      "province": {
+        "value": "5f1935794911073ac0452f63"
+      },
+      "city": {
+        "value": "qwe qwe zzz"
+      },
+      "name": {
+        "value": "qwe qwe qw e zzz"
+      },
+      "date": {
+        "value": "2020-07-21T17:15:46.068+07:00"
+      },
+      "time": {
+        "value": "2020-07-21T17:15:46.068+07:00"
+      },
+      "address": {
+        "value": "qwe qw eqw e zzz"
+      },
+      "note": {
+        "value": "qwe qw eq we qwe zzz"
+      }
+    }
+  }
+}
+
+###
+### Delete Announcement
+###
+@deleteAnnouncementId = 5f1fa70506389f5d40ed9860
+DELETE {{url}}/announcement/delete/{{deleteAnnouncementId}}
+Authorization: Bearer {{token}}
+
+####################################################################### Dashboard
+GET {{url}}/dashboard/all
+Authorization: Bearer {{token}}
+
+####################################################################### Time Setting
+GET {{url}}/time-setting/all
+Authorization: Bearer {{token}}
+
+###
+### Update Announcement
+###
+PUT {{url}}/time-setting/update
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "adsDelay": {
+    "value": 2
+  },
+  "fullAdDelay": {
+    "value": 10
+  },
+  "allowCreateDelay": {
+    "value": 10
+  }
+}
+
+####################################################################### Share Text
+
+GET http://192.168.1.46:4500/api/setting/share-text
+
+###
+### Get Share Text
+###
+GET {{url}}/setting/share-text
+Authorization: Bearer {{token}}
+
+###
+### Update Share Text
+###
+PUT {{url}}/setting/update-share-text
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "shareText": {
+    "value": "Hello"
+  }
+}

@@ -1,0 +1,2091 @@
+[{
+  "_id": {
+    "$oid": "5f14fee0f5082b6cea054ca1"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "default",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-07-20T02:18:08.067Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-10T04:24:15.996Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2cce0d03baa71e4957bea0"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "A64BC556-96A7-4720-B762-3E7361C2BB8C",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 24,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": false,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-07T03:44:13.607Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-07T04:24:31.977Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2cd01203baa71e4957beb9"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "c65ac559e129c60f",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 40,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-07T03:52:50.160Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-07T06:33:04.316Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2cf2998e52fa34ede54d19"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "E76EB140-96B0-4F28-9DB3-2B7435A2BEF2",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 40,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-07T06:20:09.592Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-07T06:29:12.512Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2d0b782d8f473ed880993e"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "3F602B33-E6C3-4AF8-B788-805C3D070526",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": false,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-07T08:06:16.304Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-07T08:06:24.331Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2ea741a0fbf74455c7be28"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "zxczxczxczxc",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": false,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-08T13:23:13.052Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-08T14:55:07.905Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2f7b3aa955fa407871a60e"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "92868e23-c042-48a9-a671-14a82c4f9f20",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": false,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-09T04:27:38.044Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-09T04:27:38.044Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2f8783222c874504038aba"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "9d06e1aa-d07c-406a-8873-97b8c793b6c1",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": false,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-09T05:20:03.613Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-09T05:20:04.990Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f30ba7412e0442c1cf870e1"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "e1b3001b-31dc-4e97-a763-0f00dc61cc0a",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 23,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-10T03:09:40.303Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T05:44:47.158Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f30ed9dba8fc82b89029a4f"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "078beb1c-21cd-48ff-92be-9d34a4691e99",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 40,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-10T06:47:57.109Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T08:43:43.944Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f31fb82ba8fc82b89029a94"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "93c4637c-a022-4f5c-b275-d54231223ae9",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T01:59:30.387Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T01:59:30.387Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3265b9ba8fc82b89029a9e"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "d7610a65-5d76-4f07-b676-363f93b62131",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T09:32:41.540Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T09:32:42.844Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f32fd0eba8fc82b89029aa7"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "91131aa3-c81d-43b4-9582-0eb24915d2bc",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-11T20:18:22.292Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-11T20:18:24.237Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f33b7bb1afac57f60482f4b"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "8750fb6a-dd8e-41cf-9c5d-10a3ad190b96",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T09:34:51.637Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T09:35:34.446Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f33bc0a1afac57f60482f54"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "f2178917-68a0-4723-ab14-4e14d1ca7e32",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T09:53:14.378Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T09:53:14.378Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f33c02b1afac57f60482f5b"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "7233cb97-f2ef-4a13-ac57-3c1d0150ef2f",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T10:10:51.216Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T10:10:52.061Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f33e9221afac57f60482f6e"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "dbe1a061-dcac-40a3-8391-b2ae63cdcad8",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 39,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-12T13:05:38.503Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-12T13:05:44.150Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f34e6e71afac57f60482f76"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "6c978ef4-7517-4683-9f7f-09256fc3dc2b",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T07:08:23.907Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-13T07:08:23.907Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f34e9c51afac57f60482f7c"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "2411e48d-3f0a-4322-b0b4-5a14057cec58",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T07:20:37.685Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-13T07:23:14.744Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f34f1ec1afac57f60482f89"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "b21e08c3-eab5-44e4-bf25-ade84728576a",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T07:55:24.718Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-13T07:55:24.718Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f34f5771afac57f60482f8e"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "2d5e4687-875d-4388-935a-4fa3bb77635e",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 40,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": false,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-13T08:10:31.192Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-13T08:13:16.756Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3bc006d954e076cf513049"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "53ca006e-f835-4b20-8c69-e1f90df14e65",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-18T11:48:22.561Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-18T11:48:25.893Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3cf1377d0ac61a9a297672"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "6a7c2659-3708-4210-9386-96ade174cc75",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T09:30:31.780Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T09:30:48.191Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3cf2e67d0ac61a9a297684"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "5d090f84-179e-40d0-9588-804bb7dc0a1a",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T09:37:42.843Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T09:37:43.950Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3cf40e7d0ac61a9a29768d"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "9e5e3c33-c07d-44f5-be84-54ff25753d0f",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-19T09:42:38.635Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T09:42:41.418Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3ddd7e7d0ac61a9a29769e"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "a0b16c06-53fe-4428-a1d5-501c6749149b",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T02:18:38.854Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-20T02:21:34.856Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3df1ac50801e1638bcc3ab"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "b5e9bc01-2e88-4a25-abd4-1330897b0c26",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T03:44:44.512Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-08T09:03:25.714Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3e37917d0ac61a9a2976b2"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "ffe44d61-ab8c-4d82-a39e-eb6ba6d6628d",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T08:42:57.950Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-20T08:42:57.950Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3e47e77d0ac61a9a2976b8"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "4637ea0e-0130-4517-8101-15bb61258d5f",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": false,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T09:52:39.179Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-20T09:53:17.119Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4156e07d0ac61a9a2976c5"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "e8e6a11c-968e-456a-9441-0e2641ab227c",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": false,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-22T17:33:20.084Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-22T17:34:01.851Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f42def17d0ac61a9a2976d1"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "9486fce4-c94a-440f-9cca-4eb03291e564",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-23T21:26:10.001Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-23T21:27:14.223Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f42dfcc7d0ac61a9a2976d9"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "282b8942-c631-4f9b-9a93-9d9dadcc7efd",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": false,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-23T21:29:48.894Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-23T21:30:48.631Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4cbd697d0ac61a9a2976e3"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "af36c928-90ec-4059-ae85-255654e20156",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-08-31T09:05:45.792Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-31T09:05:45.792Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5e51507f66f839d787539e"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "1934d161-8f46-427c-8e0c-959fb110ac90",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-09-13T17:05:20.737Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-13T17:06:23.494Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5e8c6b7d0ac61a9a2976eb"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "6f228e83-77be-4f4e-812f-70e276f8b1e1",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": false,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": false,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-09-13T21:17:31.055Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-13T21:18:28.206Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5ede3e7d0ac61a9a2976f6"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "07b03cb5-6d2b-4021-afa7-a03938ad02ff",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-09-14T03:06:38.891Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-14T03:07:43.340Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6761b57d0ac61a9a2976fe"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "e493a056-78b1-42c0-921c-66d48f2db0a4",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 29,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-09-20T14:05:41.626Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-22T16:22:12.427Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f69b3fc7d0ac61a9a297710"
+  },
+  "app": {
+    "reset": {
+      "name": "Reset Alle Instellingen"
+    },
+    "version": {
+      "copyright": "Copyright © 2020 Djanazah Gebed All rights reserved",
+      "name": "Version 1.0.0 (1.0.0)"
+    },
+    "title": "Toepassing"
+  },
+  "udid": "f13dee3b-f354-4e4b-ba2d-b13e5830d79a",
+  "arabicFont": {
+    "text": "نص تجريبي",
+    "title": "Arabische lettergrootte",
+    "value": 25,
+    "max": 40,
+    "min": 10
+  },
+  "subject": {
+    "options": [
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688692"
+        },
+        "isCheck": true,
+        "name": "Toon Arabisch"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688693"
+        },
+        "isCheck": true,
+        "name": "Toon transliteratie"
+      },
+      {
+        "_id": {
+          "$oid": "5ef34149e73b041e24688694"
+        },
+        "isCheck": true,
+        "name": "Vertaling tonen"
+      }
+    ],
+    "title": "onderwerp instellingen"
+  },
+  "createdAt": {
+    "$date": "2020-09-22T08:21:16.267Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-22T08:21:23.650Z"
+  },
+  "__v": 0
+}]

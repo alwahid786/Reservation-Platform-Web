@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "5eff13c0d110603a44c18107"
+  },
+  "adId": {
+    "ios": "ca-app-pub-3940256099942544/2934735716",
+    "android": "ca-app-pub-3940256099942544/6300978111"
+  },
+  "name": "",
+  "isActive": false,
+  "updatedAt": {
+    "$date": "2020-08-20T09:22:54.266Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eff13dad110603a44c18108"
+  },
+  "adId": {
+    "ios": "ca-app-pub-3940256099942544/2934735716",
+    "android": "ca-app-pub-3940256099942544/6300978111"
+  },
+  "name": "",
+  "isActive": false,
+  "updatedAt": {
+    "$date": "2020-08-20T09:22:54.266Z"
+  }
+}]

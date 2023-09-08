@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5efdb506b13b481e58f58f9e"
+  },
+  "name": "",
+  "ios": "https://blog.clickdimensions.com/wp-content/uploads/2017/05/BlogFeatureImage-5-Types-of-Online-Advertising-to-Generate-Leads.png",
+  "android": "https://blog.clickdimensions.com/wp-content/uploads/2017/05/BlogFeatureImage-5-Types-of-Online-Advertising-to-Generate-Leads.png",
+  "image": "\\backend/uploads/2020081711024634621221281hoc_tap_tai_dong_ruon-212212-091222.jpeg",
+  "isActive": false,
+  "updatedAt": {
+    "$date": "2020-08-20T09:22:54.265Z"
+  }
+},{
+  "_id": {
+    "$oid": "5efdb56ab13b481e58f58f9f"
+  },
+  "name": "",
+  "ios": "https://blog.clickdimensions.com/wp-content/uploads/2017/05/BlogFeatureImage-5-Types-of-Online-Advertising-to-Generate-Leads.png",
+  "android": "https://blog.clickdimensions.com/wp-content/uploads/2017/05/BlogFeatureImage-5-Types-of-Online-Advertising-to-Generate-Leads.png",
+  "image": "\\backend/uploads/2020081711024643021221281hoc_tap_tai_dong_ruon-212212-091222.jpeg",
+  "isActive": false,
+  "updatedAt": {
+    "$date": "2020-08-20T09:22:54.266Z"
+  }
+},{
+  "_id": {
+    "$oid": "5f0aaa78d555ec463030eaae"
+  },
+  "name": "",
+  "ios": "https://blog.clickdimensions.com/wp-content/uploads/2017/05/BlogFeatureImage-5-Types-of-Online-Advertising-to-Generate-Leads.png",
+  "android": "https://blog.clickdimensions.com/wp-content/uploads/2017/05/BlogFeatureImage-5-Types-of-Online-Advertising-to-Generate-Leads.png",
+  "image": "\\backend/uploads/20200817110246486vuonvai.PNG",
+  "isActive": false,
+  "updatedAt": {
+    "$date": "2020-08-20T09:22:54.266Z"
+  }
+}]

@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "5f114b43a7464427840478a3"
+  },
+  "name": "default",
+  "info": [
+    {
+      "_id": {
+        "$oid": "5f3e411650801e1638bcc3b8"
+      },
+      "name": "Email",
+      "value": "djanazah.gebeden@gmail.com"
+    },
+    {
+      "_id": {
+        "$oid": "5f3e411650801e1638bcc3b9"
+      },
+      "name": "Facebook",
+      "value": "fb/djanazah.gebeden"
+    }
+  ],
+  "updatedAt": {
+    "$date": "2020-08-20T09:23:34.353Z"
+  }
+}]

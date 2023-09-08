@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "5ef065106bb6103270fc92d9"
+  },
+  "name": "Essential resources for regular visitors to the cemetery and for those",
+  "content": {
+    "langAra": "نموذج إعلان الدفن هو المفتاح للعائلات وقادة المجتمع للإعلان بدقة عن الجنازات بالمعلومات المطلوبة.",
+    "langEng": "English The burial announcement form is key for Families and community leaders to accurately announce funerals with the required information.",
+    "langTranslit": "Translit The burial announcement form is key for Families and community leaders to accurately announce funerals with the required information."
+  },
+  "createdAt": {
+    "$date": "2020-06-22T08:00:16.933Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-22T08:00:16.933Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef065106bb6103270fc92d8"
+  },
+  "name": "Eternal Gardens' all round Janazah App",
+  "content": {
+    "langAra": "نموذج إعلان الدفن هو المفتاح للعائلات وقادة المجتمع للإعلان بدقة عن الجنازات بالمعلومات المطلوبة.",
+    "langEng": "English The burial announcement form is key for Families and community leaders to accurately announce funerals with the required information.",
+    "langTranslit": "allughat al'iinjliziat namudhaj 'iielan aldafn hu almuftah lileayilat waqadat almujtamae li'iielan aljanazat bidiqat mae almaelumat almatlubati."
+  },
+  "createdAt": {
+    "$date": "2020-06-22T08:00:16.933Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-22T08:00:16.933Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef3305febe6a51ea0999876"
+  },
+  "name": "It is a long established fact",
+  "content": {
+    "langAra": "المبلغ الضخم هو دفعة لحملة ناضلت للتنافس مع براعة جمع التبرعات لبعض كبار منافسيها في جميع أنحاء الانتخابات التمهيدية الديمقراطية",
+    "langEng": "The massive sum is a boost to a campaign that had struggled to compete with the fundraising prowess of some of its top rivals throughout the Democratic primary",
+    "langTranslit": "almablagh aldakhm hu dafeat lihamlat nadilat liltanafus mae baraeat jame altabarueat libaed kibar munafisiha fi jmye 'anha' alaintikhabat altamhidiat aldiymuqratia"
+  },
+  "createdAt": {
+    "$date": "2020-06-24T10:52:15.840Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-24T10:52:15.840Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef3305febe6a51ea0999877"
+  },
+  "name": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+  "content": {
+    "langAra": "لا يحتوي Famicom على أجهزة قفل ، ونتيجة لذلك ، كانت الخراطيش غير المرخصة (الشرعية وغير المشروعة) شائعة للغاية في جميع أنحاء اليابان والشرق الأقصى",
+    "langEng": "The Famicom contains no lockout hardware and, as a result, unlicensed cartridges (both legitimate and bootleg) were extremely common throughout Japan and the Far East",
+    "langTranslit": "la yahtawi Famicom ealaa 'ajhizat qifl , wanatijat ldhlk , kanat alkharatish ghyr almurakhasa (alshreyt waghayr almshrwe) shayieatan lilghayat fi jmye 'anha' alyaban walshrq al'aqsaa"
+  },
+  "createdAt": {
+    "$date": "2020-06-24T10:52:15.841Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-24T10:52:15.841Z"
+  },
+  "__v": 0
+}]

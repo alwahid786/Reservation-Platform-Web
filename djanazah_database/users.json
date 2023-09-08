@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "5f01e4cc759ed12b048f93fe"
+  },
+  "email": "admin@gmail.com",
+  "password": "$2a$12$a9KYKtPUqEV4cTl.o7cTp.rsSdeIp9XNbKeaBlkVc8v42WrE50s5i",
+  "name": "Admin",
+  "role": {
+    "$oid": "5f20f785f6214c1810ab0dbd"
+  },
+  "createdAt": {
+    "$date": "2020-07-05T14:33:48.359Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-19T05:33:26.140Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3e4bc550801e1638bcc3bb"
+  },
+  "email": "btaouil@gmail.com",
+  "password": "$2a$12$R/uoY6Jq2nrhAam9agah8.5K11M7HceKem0X4r8dxWLl7ui.10KYy",
+  "name": "Bilal Taouil",
+  "role": {
+    "$oid": "5f20f7c3f6214c1810ab0dbe"
+  },
+  "createdAt": {
+    "$date": "2020-08-20T10:09:09.372Z"
+  },
+  "updatedAt": {
+    "$date": "2020-09-20T14:18:55.707Z"
+  },
+  "__v": 0
+}]

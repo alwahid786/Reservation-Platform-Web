@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "5f3ca01e025e79244c40b819"
+  },
+  "name": "default",
+  "text": "Djanazah Gebeden",
+  "updatedAt": {
+    "$date": "2020-08-19T08:11:21.643Z"
+  }
+}]

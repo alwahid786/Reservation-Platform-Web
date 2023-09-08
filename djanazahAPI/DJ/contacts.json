@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "5ef34281b184263b5885c33d"
+  },
+  "name": "default",
+  "address": "It is also possible to add new prayer locations or update the information of existing prayer locations",
+  "email": "Djanazah@gmail.com",
+  "feedback": "Djanazah@feedback.com",
+  "phone": "0123456789"
+}]

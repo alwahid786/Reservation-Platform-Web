@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "5ef065116bb6103270fc92db"
+  },
+  "categoryId": [
+    {
+      "$oid": "5ef3305febe6a51ea0999876"
+    },
+    {
+      "$oid": "5ef3305febe6a51ea0999877"
+    }
+  ],
+  "title": "Pain / Sickness",
+  "createdAt": {
+    "$date": "2020-06-22T08:00:17.117Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-22T08:00:17.117Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef065116bb6103270fc92da"
+  },
+  "categoryId": [
+    {
+      "$oid": "5ef065106bb6103270fc92d8"
+    },
+    {
+      "$oid": "5ef065106bb6103270fc92d9"
+    }
+  ],
+  "title": "Pain / Sickness / Holy",
+  "createdAt": {
+    "$date": "2020-06-22T08:00:17.117Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-22T08:00:17.117Z"
+  },
+  "__v": 0
+}]

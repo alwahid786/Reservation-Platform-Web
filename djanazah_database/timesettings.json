@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "5f1fcc79f6214c1810ab0dbc"
+  },
+  "name": "default",
+  "adsDelay": "2000",
+  "fullAdDelay": "60000",
+  "allowCreateDelay": "10",
+  "createdAt": {
+    "$date": "2020-07-28T07:12:49.013Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-17T11:05:19.816Z"
+  }
+}]
